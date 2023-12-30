@@ -1,0 +1,9 @@
+{
+	"name": "QuickRestart",
+	"version_number": "1.2.0",
+	"website_url": "https://github.com/EBro912/QuickRestart/",
+	"description": "Allows you to easily restart your game via a command.",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+	]
+}

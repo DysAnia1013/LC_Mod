@@ -1,0 +1,9 @@
+{
+    "name": "Low_Budget_One_Piece_suits",
+    "version_number": "0.5.1",
+    "website_url": "",
+    "description": "Adds 5 characters as suits from the popular manga/anime One Piece!",
+    "dependencies": [
+        "x753-More_Suits-1.3.3"
+    ]
+}

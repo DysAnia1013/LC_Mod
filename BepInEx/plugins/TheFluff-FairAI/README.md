@@ -1,0 +1,1 @@
+Mines and Boombas from LethalThings will now trigger on any enemy stepping on them. Now Turrets will also target and kill enemies too. Also including a config that will generate after hosting a lobby. This config will then let you set which enemies can set off the mines(All enemies can by default).

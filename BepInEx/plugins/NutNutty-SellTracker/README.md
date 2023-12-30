@@ -1,0 +1,2 @@
+# Sell Tracker
+A mod that automatically calculates the value of the scrap on the counter at the company building (plus the value of any already sold items) and displays it to you, along with your quota, by replacing the mostly useless (if you sell on the last day like 99% of players) screen displaying the current buying rate of the company.

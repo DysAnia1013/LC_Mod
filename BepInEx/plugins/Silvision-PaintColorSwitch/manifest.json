@@ -1,0 +1,7 @@
+{
+    "name": "PaintColorSwitch",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/Silvision/PaintColorSwitchMod.git",
+    "description": "This mod allows you to switch through the colors on the Spray Paint Can",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}

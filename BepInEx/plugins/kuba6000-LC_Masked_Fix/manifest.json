@@ -1,0 +1,7 @@
+{
+    "name": "LC_Masked_Fix",
+    "version_number": "0.0.1",
+    "website_url": "",
+    "description": "Fixes mimic / masked bug where you can't look around after the kill is interrupted.",
+    "dependencies": []
+}

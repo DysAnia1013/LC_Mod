@@ -1,0 +1,9 @@
+{
+    "name": "Hold_Scan_Button",
+    "version_number": "1.1.1",
+    "website_url": "https://github.com/milleroski/HoldScanButton",
+    "description": "This mod allows you to hold the scan button to continuously keep scanning instead of having to spam the button.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

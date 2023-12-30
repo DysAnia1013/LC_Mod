@@ -1,0 +1,9 @@
+{
+    "name": "AbsasCosmetics",
+    "version_number": "1.2.1",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "Adds several cosmetics for the MoreCompany mod.",
+    "dependencies": [
+        "notnotnotswipez-MoreCompany-1.7.1"
+    ]
+}

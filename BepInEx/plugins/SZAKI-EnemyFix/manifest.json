@@ -1,0 +1,9 @@
+{
+  "name": "EnemyFix",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/SzKristof97/EnemyFix/tree/master",
+  "description": "Fixing the enemy not despawning problem!",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
