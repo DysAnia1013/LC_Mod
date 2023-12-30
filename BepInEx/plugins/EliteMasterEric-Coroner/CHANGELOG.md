@@ -3,6 +3,10 @@
 # Upcoming
 [] Implement Stun Grenade death
 
+# 1.5.2
+## Fixed
+- Attempting to fix an issue caused when installing Coroner without R2Modman.
+
 # 1.5.1
 ## Added
 - Added a new French localization.

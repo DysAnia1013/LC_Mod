@@ -404,9 +404,9 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 1
+    patch: 3
   enabled: true
-  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\1217\BepInEx\plugins\EliteMasterEric-Coroner\icon.png
+  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\EliteMasterEric-Coroner\1.5.3\icon.png
 - manifestVersion: 1
   name: amnsoft-EmployeeAssignments
   authorName: amnsoft
