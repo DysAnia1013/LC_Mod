@@ -122,9 +122,9 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 1
+    patch: 2
   enabled: true
-  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
+  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\FlipMods-ReservedItemSlotCore\1.7.2\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedFlashlightSlot
   authorName: FlipMods
@@ -406,7 +406,7 @@
     minor: 5
     patch: 3
   enabled: true
-  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\EliteMasterEric-Coroner\1.5.3\icon.png
+  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\1217\BepInEx\plugins\EliteMasterEric-Coroner\icon.png
 - manifestVersion: 1
   name: amnsoft-EmployeeAssignments
   authorName: amnsoft
@@ -1476,8 +1476,8 @@
   websiteUrl: https://thunderstore.io/c/lethal-company/p/TheFluff/FairAI/
   displayName: FairAI
   description: Mod To Make Entities Less Racist. Everyone that can die will die by
-    stepping on mines and boombas from LethalThings and you can config it. Now
-    with support for Turrets to kill enemies
+    stepping on mines, boombas, turrets, and config support. Now with more
+    config options!
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1490,6 +1490,6 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\1217\BepInEx\plugins\TheFluff-FairAI\icon.png

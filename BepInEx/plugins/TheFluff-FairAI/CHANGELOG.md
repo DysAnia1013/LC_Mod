@@ -1,3 +1,5 @@
+#1.2.4 Added more config options
+
 #1.2.3 Put in a new Turret AI to kill enemies. Let me know how I did!
 
 #1.2.2 Took out my test ai for turrets. Sorry for the problems

@@ -72,3 +72,8 @@ My mod should now dynamically update the start index for the reserved slots in c
 + Scrolling up will now always scroll up in the reserved item slots.
 + Made swapping between reserved hotbar slots smarter. It will now not let you swap to empty inventory slots when focused on the reserved hotbar slots.<br>
 There still may be syncing issues between which reserved item is held between players. Will update this next.
+# 1.7.2
++ Fixed issue with clients not swapping their currently held reserved item correctly.
++ Restructured a part of this mod. Regardless of which of the reserved item slots that non-host clients have, they will now have all of the reserved item slots that the host is using, even if they don't have that specific mod installed.<br>
+Syncing reserved slots from the host for a mod that you don't have should not cause any issues. You just won't have the extra features, such as any specific hotkeys for those mods, or items being displayed on players' while not currently held.<br>
+This new adjusted framework can allow for custom reserved slots from the host to be synced with other clients, if I do end up making a CustomReservedItemSlot mod.
