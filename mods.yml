@@ -124,7 +124,7 @@
     minor: 7
     patch: 2
   enabled: true
-  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\FlipMods-ReservedItemSlotCore\1.7.2\icon.png
+  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedFlashlightSlot
   authorName: FlipMods
@@ -425,9 +425,9 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 8
+    patch: 9
   enabled: true
-  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\1217\BepInEx\plugins\amnsoft-EmployeeAssignments\icon.png
+  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\amnsoft-EmployeeAssignments\1.0.9\icon.png
 - manifestVersion: 1
   name: FlipMods-ObjectVolumeController
   authorName: FlipMods

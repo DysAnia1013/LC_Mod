@@ -1,3 +1,13 @@
+# v1.0.9
++ Fixed compatability with mods that allows monsters to die by other means (will only drop reward if player is close by)
++ Fixed compatability with mods that add new moons.
++ Fixed assignment failed popup showing for all players.
++ Added generated list of enemies for use with the whitelist.
++ Added config toggle for "All players can complete Assignments" to allow other players to complete your assignment without it failing.
++ Added mod update checker with warning when mod is out of date
++ Added assignment weights and whitelist
++ Added enemy reward values and weights
+
 # v1.0.8
 + Updated changelog with testers names
 + Fixed an error when trying to drop gold
