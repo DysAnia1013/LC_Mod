@@ -424,10 +424,10 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 9
+    minor: 1
+    patch: 0
   enabled: true
-  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\amnsoft-EmployeeAssignments\1.0.9\icon.png
+  icon: C:\Users\12507\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\amnsoft-EmployeeAssignments\1.1.0\icon.png
 - manifestVersion: 1
   name: FlipMods-ObjectVolumeController
   authorName: FlipMods

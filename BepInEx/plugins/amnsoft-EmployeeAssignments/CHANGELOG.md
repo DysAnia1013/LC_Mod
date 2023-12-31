@@ -1,3 +1,6 @@
+# v1.1.0
++ Handle error on monster list generation
+
 # v1.0.9
 + Fixed compatability with mods that allows monsters to die by other means (will only drop reward if player is close by)
 + Fixed compatability with mods that add new moons.

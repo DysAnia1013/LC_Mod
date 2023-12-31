@@ -1,6 +1,6 @@
 {
     "name": "EmployeeAssignments",
-    "version_number": "1.0.9",
+    "version_number": "1.1.0",
     "website_url": "",
     "description": "Personal assignments for employees, that can be completed for extra cash",
     "dependencies": [
