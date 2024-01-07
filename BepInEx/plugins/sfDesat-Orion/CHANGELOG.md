@@ -1,10 +1,22 @@
+- 1.1.3
+  - Added back the second fire exit (it didn't work)
+  - Fixed clipping issue
+  - Enemies spawn a bit later
+  - Removed templatemod as dependency
+  - Added internal name to description
+
+- 1.1.2
+  - Temporarily disabled the second fire exit to hopefully fix compatibility with modded interiors
+
+- 1.1.1
+  - New link to tutorials
+
 - 1.1.0
   - Changed ship position
   - Terrain changes
   - Added some props
   - Giant spawnrate increased
   - Enemies can spawn earlier
-  - Adde a link to Tutorials in description
 
 - 1.0.3
   - Updated terminal description

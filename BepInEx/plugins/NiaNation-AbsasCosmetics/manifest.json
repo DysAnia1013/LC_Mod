@@ -1,6 +1,6 @@
 {
     "name": "AbsasCosmetics",
-    "version_number": "1.2.1",
+    "version_number": "1.2.3",
     "website_url": "https://github.com/thunderstore-io",
     "description": "Adds several cosmetics for the MoreCompany mod.",
     "dependencies": [

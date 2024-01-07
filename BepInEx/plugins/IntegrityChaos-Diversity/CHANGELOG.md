@@ -60,16 +60,35 @@
 - Fixed the text showing on the monitor even after the round ended.
 - Fixed issues with some configs.
 - Added config for the anger time of the Bracken.
-- Added config to enable or disable the Bracken's personnal space.
-- Increased the lighting inside the Bracken's personnal space.
+- Added config to enable or disable the Bracken's personal space.
+- Increased the lighting inside the Bracken's personal space.
 
 ## 1.1.3 Fixes
 - Added compatibility with "Lethal Things" mod.
 - Reworked the entire audio system of Diversity. (Should hopefully fix most audio issues.)
-- Fixed the issues concerning the Bracken's personnal space when disabling it.
+- Fixed the issues concerning the Bracken's personal space when disabling it.
 - Fixed a big issue mainly concerning player collison causing extreme FPS drops with certain mods.
 - Fixed issues with the "ManualCameraRender" methods AKA "The monitor map".
 - Fixed issues with the radar boosters.
 
 ## 1.1.4 Hotfix
 - Fixed an issue with PlayerRevamp causing spam error in the console.
+
+## 1.1.5 Fixes & Additions
+- Fixed the Bracken's personal space door not prompting to escape.
+- Reallocated the Bracken's personal space to avoid clipping with other structures.
+- Fixed true darkness only applying to the host.
+- Revamped the Dress girl. She now has a completely new ability. (More to come soon!)
+- Added the new Dress girl voice lines.
+
+## 1.1.6 Hotfixes
+- Fixed players being stuck when loading a game.
+- Fixed full darkness not working at all.
+- Fixed screen stuck after leaving a moon.
+- Fixed issues with "HDLethalCompany" about the scan nodes.
+
+## 1.1.7 Hotfix
+- Fixed FPS issue with the new Dress girl addition.
+
+## 1.1.8 Hotfix
+- Fixed the Dress girl ability staying active after death.

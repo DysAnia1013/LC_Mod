@@ -1,6 +1,8 @@
-# v1.0.4 (Latest)
+# v1.0.5 (Latest)
+- The CrossHair GameOject is now instansiated from the quota monitor text, mostly to change the font. Suggested by [AlbinoGeek](https://github.com/AlbinoGeek).
+### v1.0.4
 - Added [CHANGELOG.md](https://github.com/CTN-Originals/LethalCompany-CrossHair/blob/main/CHANGELOG.md) as a seperate file.
-- Added [LICENSE](https://github.com/CTN-Originals/LethalCompany-CrossHair/blob/main/LICENSE) to the distributable zip folder.
+- Added the [LICENSE](https://github.com/CTN-Originals/LethalCompany-CrossHair/blob/main/LICENSE) file to the distributable folder.
 ### v1.0.3
 - Added CrossHairShadow<bool> config option, which enables/disables the CrossHair shadow. Suggested by [HazardousMonkey](https://github.com/HazardousMonkey) ([#1](https://github.com/CTN-Originals/LethalCompany-CrossHair/issues/1))
 - Reduced the distance of the shadow from the CrossHair

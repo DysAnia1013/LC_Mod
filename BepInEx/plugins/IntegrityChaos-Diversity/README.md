@@ -1,10 +1,17 @@
 # Diversity
 
-# IMPORTANT NOTICE!!!
-I will not be accepting friend request on Discord anymore! (I've been flooded with them... ;-;) Please join the [Discord server](https://discord.gg/4APzjc8fNW) if you'd like to chat or report issues about Diversity!
-I've also opened a [Patreon](https://www.patreon.com/IntegrityChaos) for the one who'd like to support my work!
-Also the big update may have issues and I'm ready to recieve all of them!!!
+# Important Message!
+First of all, thank you all for all the feedbacks and for reaching over 150K+ downloads! Y'all are amazing!
+Secondly, I will soon take a small break of 4-5 days since I've been overworking myself lately working on Diversity (I don't know when yet, I will announce it on my Discord server.)
+Additionally, I am potentially looking for some skilled people that could help me making this mod an even better mod! (Mainly asset creation such as art, models and texturing.) I've been making everything all by myself, except for the voice acting, and it's very time consuming... You'll be credited, and compensated if needed! If interested please join my [Discord server](https://discord.gg/4APzjc8fNW) and let me know!
+Lastly, I am working on a big update, yet again, that will add even more awesome content! Stay tuned!
+I also wish all of you a happy new year!!!
 
+## [Discord](https://discord.gg/4APzjc8fNW)
+You can join our [Discord server](https://discord.gg/4APzjc8fNW) to report issues or just to come chat with us!
+
+## [Patreon](https://www.patreon.com/IntegrityChaos)
+For the ones who'd like to support my work!
 
 ## What is Diversity?
 Diversity is a mod that revamps few aspects of the game. Generally the entities itself.
@@ -28,6 +35,7 @@ This is what Diversity revamps:
 
 ## The Dress girl
 - She will haunt your walkie-talkie.
+- She now has the ability to isolate you and to give you hallucinations.
 
 ## The Centipedes
 - You can now help your friends out whenever a centipede is latched onto their head by spamming the use button if you don't have a shovel.

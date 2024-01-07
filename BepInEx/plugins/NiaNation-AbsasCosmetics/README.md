@@ -26,7 +26,8 @@ Adds some more cosmetics for MoreCompany, either put in by me or requested by my
 - Ember's Slime
 - Riku Hat
 - Mio Hair
-- Nia's Scimitar
+- Cowboy Hat
+
 
 ### CHEST:
 - ANIMATED Among Us Buddy
@@ -39,6 +40,7 @@ Adds some more cosmetics for MoreCompany, either put in by me or requested by my
 - ANIMATED Monado
 - Chairman Bana
 - Mio Core Crystal
+- Nia's Scimitar
 
 ### HIPS:
 - ANIMATED Absa Tail

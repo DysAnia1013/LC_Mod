@@ -1,3 +1,11 @@
+## Version 1.2.2
+
+- Fixed compatibility with Immersive Visor by switching my method of getting a reference to the visor to using PlayerControllerB.playerVisor
+
+## Version 1.2.1
+
+- Fixed method of disabling the players' visors so that it only disables the shadows instead of the object itself
+
 ## Version 1.2.0
 
 - Fixed issue where you couldn't see the shadow of your body

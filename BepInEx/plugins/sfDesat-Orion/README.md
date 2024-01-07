@@ -1,6 +1,6 @@
 # Orion Status Report
 ![Screenshot_1](https://raw.githubusercontent.com/sfDesat/Orion/main/Screenshots/Screenshot%202.png "Screenshot%202")
-_The Church (photo from Drone-6)_
+_The Church (photo taken by Drone-6)_
 
 ## **Orion Scrap Retrieval Program**
 
@@ -26,9 +26,10 @@ Retrieving scraps within the church poses a multifaceted challenge, demanding me
 
 # 
 
+The internal name is '43 Orion' (for modded interiors).  
 _If you want to give feedback, you can use my [github page](https://github.com/sfDesat/Orion/issues) or [discord](https://discord.gg/nYcQFEpXfU) (Go to mod-releases and look for Orion / Aquatis)._
 
 **Check out my newest planet [Aquatis](https://thunderstore.io/c/lethal-company/p/sfDesat/Aquatis/) or download the [modpack](https://thunderstore.io/c/lethal-company/p/sfDesat/Explorations/).**
 #
 ### Want to support me? [Buy me a coffee ❤️](https://www.buymeacoffee.com/sfdesat).
-### Want to create your own moon? [Tutorials are here](https://www.buymeacoffee.com/sfdesat/posts/9064).
+### Want to create your own moon? [Tutorials are here](https://sfdesat.github.io/).

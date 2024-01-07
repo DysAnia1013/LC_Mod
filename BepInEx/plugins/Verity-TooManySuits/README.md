@@ -27,3 +27,10 @@ Changelogs
 
 ### Version 1.0.3
 - Editable Text-Scale in the config.
+
+### Version 1.0.4
+- Bug fixes
+
+### Version 1.0.5
+- Visual bug reported by and fixed by Lordfirespeed (off-by-one error)
+- Game breaking bug caused by page number not being reset when disconnecting or being kicked, reported by Clark (https://thunderstore.io/c/lethal-company/p/TeamClark/TheMostLethalCompany/)
