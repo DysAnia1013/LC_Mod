@@ -1,3 +1,8 @@
+- 1.1.4
+  - Disabled Eclipsed Weather
+  - Disabled Rainy Weather
+  - Disabled Stormy Weather
+
 - 1.1.3
   - Added back the second fire exit (it didn't work)
   - Fixed clipping issue

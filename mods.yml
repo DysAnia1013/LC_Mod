@@ -18,7 +18,7 @@
     minor: 3
     patch: 0
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\2018-LC_API\3.3.0\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\2018-LC_API\icon.png
 - manifestVersion: 1
   name: BepInEx-BepInExPack
   authorName: BepInEx
@@ -1468,9 +1468,9 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 3
+    patch: 4
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\sfDesat-Orion\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\sfDesat-Orion\1.1.4\icon.png
 - manifestVersion: 1
   name: TheFluff-FairAI
   authorName: TheFluff
