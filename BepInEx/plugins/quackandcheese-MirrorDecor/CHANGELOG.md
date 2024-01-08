@@ -1,6 +1,10 @@
 ## Version 1.2.2
 
-- Fixed compatibility with Immersive Visor by switching my method of getting a reference to the visor to using PlayerControllerB.playerVisor
+- Fixed chat message error when MoreCompany is not installed (Credit to legoandmars for the report and solution)
+
+## Version 1.2.2
+
+- Fixed compatibility with Immersive Visor by switching my method of getting a reference to the visor to using PlayerControllerB.localVisor
 
 ## Version 1.2.1
 

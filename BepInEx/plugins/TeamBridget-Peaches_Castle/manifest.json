@@ -1,10 +1,10 @@
 {
     "name": "Peaches_Castle",
-    "version_number": "1.0.3",
+    "version_number": "1.0.41",
     "website_url": "",
     "description": "Adds the castle grounds of Peach's Castle as a playable moon.",
     "dependencies": [
       "BepInEx-BepInExPack-5.4.2100",
-      "HolographicWings-LethalExpansion-1.3.3"
+      "HolographicWings-LethalExpansion-1.3.16"
     ]
 }

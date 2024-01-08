@@ -33,10 +33,15 @@ No, you need friends.
 ### Does it fill up my hard drive with audio clips?
 No, audio clips are automatically deleted.
 
-### Does this mod have any conflicts?
-You cannot have the mod Lethal Progression installed, it conflicts with this mod.
-
 ## Changelog
+
+### 2.0.3
+- Updated 2.0.2 patch notes with something I forgot to note
+
+### 2.0.2
+- Fixed a memory leak
+- The developer of Lethal Progression fixed the conflict between the mods
+- Fixed an issue where spectators would not hear monster voices. This doesn't mean spectators hear the same voices as who they are spectating, but the same client-side voices that everyone hears normally.
 
 ### 2.0.1
 - Recompiled for BepInEx 5.4.2100 for Thunderstore compatibility

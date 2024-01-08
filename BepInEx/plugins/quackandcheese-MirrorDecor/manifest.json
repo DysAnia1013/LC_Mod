@@ -1,7 +1,7 @@
  {
   "name": "MirrorDecor",
   "author": "quackandcheese",
-  "version_number": "1.2.2",
+  "version_number": "1.2.3",
   "website_url": "https://github.com/quackandcheese/MirrorDecor",
   "description": "Adds a working mirror decoration that you can buy for your ship!",
   "dependencies": [

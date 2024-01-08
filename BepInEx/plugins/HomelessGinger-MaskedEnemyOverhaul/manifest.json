@@ -1,6 +1,6 @@
 {
     "name": "MaskedEnemyOverhaul",
-    "version_number": "2.2.1",
+    "version_number": "2.3.0",
     "website_url": "",
     "description": "Removes the mask from the mimic enemy, wears a suit of a random player (even modded ones), allows spawning on all moons without needing the mask items, and a zombie apocalypse? ",
     "dependencies": []
