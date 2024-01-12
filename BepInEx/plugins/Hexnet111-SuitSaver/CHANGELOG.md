@@ -1,3 +1,8 @@
+## 1.1.4
+- Another slight description fix.
+## 1.1.3
+- Slight description & readme.md change. No need to reinstall.
+- The mod is still compatible with the game. (v47)
 ## 1.1.2
 **Small Changes focused on code organization. No need to reinstall.**
 - Added a buy me a coffee page.

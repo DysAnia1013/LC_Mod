@@ -92,3 +92,14 @@
 
 ## 1.1.8 Hotfix
 - Fixed the Dress girl ability staying active after death.
+
+## 1.1.9 Fixes & Rework
+- Removed the spam log in the console.
+- Fixed door prompt in the Bracken's personal space not showing up when looking at it.
+- Fixed the shotgun immunity of the Bracken.
+- Reworked the entire mechanic for the Bracken's main ability and shouldn't cause huge FPS drops.
+- Added synchronization for the Bracken angered moment.
+- Fixed blindness still triggering around valves that are not bursted.
+
+## 1.1.10 Hotfix
+- Fixed an issue with the Bracken new mechanic of 1.1.9.

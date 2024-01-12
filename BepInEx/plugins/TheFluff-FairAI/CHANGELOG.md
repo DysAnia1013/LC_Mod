@@ -1,5 +1,8 @@
+# 1.2.8
+Fixed for new version of Lethal Company. Please if you can drop a 1$ donation I lost my job and would love some motivation.
+
 # 1.2.7
-Probably Fixed Sync Error With Turret And Enemy Deaths And Damage. Please if you can drop a 1$ donation I lost my job and would love some motivation.
+Probably Fixed Sync Error With Turret And Enemy Deaths And Damage.
 
 # 1.2.6
 Probably fixed the soft dependency issue for boombas and also the turrets now no longer target enemies but will damage them. Will make them target enemies in a later update. Turrets also are full auto again

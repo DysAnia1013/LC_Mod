@@ -41,6 +41,14 @@ This mod is not affiliated with BiggerLobby/LethalPlayers nor does it use any co
 ```
 
 # Changelog
+## 1.7.4
+- Fixed crew count changer not displaying on the host screen.
+
+## 1.7.3
+- Fixed compatibility with v47.
+- Fixed kicking not working on some players.
+- Added safety check for duplicate cosmetics.
+
 ## 1.7.2
 - Added 1 new cosmetic.
 - Players which have been taken over by the mask will now keep their cosmetics when they become masked.

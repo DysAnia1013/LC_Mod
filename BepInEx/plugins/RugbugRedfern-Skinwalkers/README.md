@@ -35,6 +35,19 @@ No, audio clips are automatically deleted.
 
 ## Changelog
 
+### 2.0.6
+- Improved clarity of some log messages
+- Fixed an issue that may have been caused by other mods adding enemies
+
+### 2.0.5
+- Updated for Lethal Company v48
+- Added an option to the config to disable voices from modded enemies.
+
+### 2.0.4
+- Updated for Lethal Company v47
+- Attempted to reduce the stutter that can affect some players by reducing Dissonance log output (1A3)
+- Fixed an issue where the Ghost Girl could play voice lines for players she was not haunting (1A3)
+
 ### 2.0.3
 - Updated 2.0.2 patch notes with something I forgot to note
 
@@ -46,7 +59,7 @@ No, audio clips are automatically deleted.
 ### 2.0.1
 - Recompiled for BepInEx 5.4.2100 for Thunderstore compatibility
 
-### 2.0.0 [SPOILERS]
+### 2.0.0
 - Enemies no longer play voice lines when dead
 - Removed some unecessary logs
 - Added Masked and Nutcracker to the config

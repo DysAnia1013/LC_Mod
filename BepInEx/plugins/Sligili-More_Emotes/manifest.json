@@ -1,9 +1,10 @@
 {
     "name": "More_Emotes",
-    "version_number": "1.2.2",
-    "website_url": "https://www.youtube.com/watch?v=nugrbr8dvvk",
-    "description": "[v45/v40] Adds more emotes!!",
+    "version_number": "1.3.3",
+    "website_url": "https://www.youtube.com/watch?v=GMgsFZ4rkEI",
+    "description": "[v49/v45] Adds even more emotes",
     "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
+        "BepInEx-BepInExPack-5.4.2100", 
+	"Ozone-Runtime_Netcode_Patcher-0.2.5"
     ]
 }

@@ -14,4 +14,4 @@ Note for versions 1.1.0+: All players are required to have the mod if TooManySui
 # Donations
 This mod is completely free, however if you want to support me by [buying me a coffee](https://ko-fi.com/hexnet) you can!
 <br />
-Please only support me only if you can! Don't donate unless you can afford to.
+Please support me only if you can! Don't donate unless you can afford to.

@@ -1,7 +1,7 @@
 {
     "name": "LC_Masked_Fix",
-    "version_number": "0.0.1",
+    "version_number": "0.0.2",
     "website_url": "",
-    "description": "Fixes mimic / masked bug where you can't look around after the kill is interrupted.",
+    "description": "[V47/V48/V49] Fixes a bug where the red screen overlay / vomit animation is not removed until you die. [V45] Fixes mimic / masked bug where you can't look around after the kill is interrupted.",
     "dependencies": []
 }

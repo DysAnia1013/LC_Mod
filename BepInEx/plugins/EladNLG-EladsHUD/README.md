@@ -2,9 +2,21 @@
 
 Replaces your health stamina and battery with better UI. 
 
-# **PREVIOUS USERS, UNINSTALL THE MOD BEFORE UPDATING.**
-
 Objectively.
+
+## SCREENSHOTS!!!
+
+![screen shot 1](https://raw.githubusercontent.com/EladNLG/EladsHUD/main/assets/screenshot1.png)
+![screen shot 2](https://raw.githubusercontent.com/EladNLG/EladsHUD/main/assets/screenshot2.png)
+
+# Patch Notes
+
+## 1.2
+
+- no longer overloaded with information
+- config!!!
+  - so many options much wow!
+  - use r2modman's config editor so you dont suffer lmao
 
 ## 1.1
 

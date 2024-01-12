@@ -16,7 +16,7 @@
   versionNumber:
     major: 3
     minor: 3
-    patch: 0
+    patch: 2
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\2018-LC_API\icon.png
 - manifestVersion: 1
@@ -66,7 +66,7 @@
   authorName: Sligili
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/
   displayName: More_Emotes
-  description: "[v45/v40] Adds more emotes!!"
+  description: "[v49/v45] Adds even more emotes"
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -74,12 +74,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
+    - Ozone-Runtime_Netcode_Patcher-0.2.5
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 2
-    patch: 2
+    minor: 3
+    patch: 3
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Sligili-More_Emotes\icon.png
 - manifestVersion: 1
@@ -100,9 +101,9 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 3
+    patch: 6
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\RugbugRedfern-Skinwalkers\2.0.3\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\RugbugRedfern-Skinwalkers\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedItemSlotCore
   authorName: FlipMods
@@ -121,8 +122,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 7
-    patch: 7
+    minor: 8
+    patch: 8
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
@@ -139,13 +140,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.7.4
+    - FlipMods-ReservedItemSlotCore-1.8.6
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 7
+    patch: 8
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
 - manifestVersion: 1
@@ -188,7 +189,7 @@
   versionNumber:
     major: 2
     minor: 3
-    patch: 1
+    patch: 2
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\x753-Mimics\icon.png
 - manifestVersion: 1
@@ -205,13 +206,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.7.4
+    - FlipMods-ReservedItemSlotCore-1.8.6
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 3
+    patch: 4
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
 - manifestVersion: 1
@@ -230,12 +231,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
+    - AlexCodesGames-AdditionalContentFramework-1.0.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
-    minor: 1
-    patch: 3
+    major: 2
+    minor: 0
+    patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalSuits\icon.png
 - manifestVersion: 1
@@ -468,8 +470,8 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 3
-    patch: 0
+    minor: 4
+    patch: 1
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\HomelessGinger-MaskedEnemyOverhaul\icon.png
 - manifestVersion: 1
@@ -629,7 +631,7 @@
   authorName: Evaisa
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/
   displayName: LethalLib
-  description: My modding tools for Lethal Company
+  description: Personal modding tools for Lethal Company
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -642,10 +644,10 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 10
+    minor: 12
     patch: 1
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Evaisa-LethalLib\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\Evaisa-LethalLib\0.12.1\icon.png
 - manifestVersion: 1
   name: OnePeak-Low_Budget_One_Piece_suits
   authorName: OnePeak
@@ -685,7 +687,7 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 2
+    patch: 4
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\notnotnotswipez-MoreCompany\icon.png
 - manifestVersion: 1
@@ -735,7 +737,7 @@
   authorName: Evaisa
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/
   displayName: LethalThings
-  description: Adds 9 scrap, 6 store items, 1 enemy, 4 decor, 1 map hazard, and 1
+  description: Adds 11 scrap, 6 store items, 1 enemy, 4 decor, 1 map hazard, and 1
     game mechanic.
   gameVersion: "0"
   networkMode: both
@@ -745,13 +747,13 @@
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
     - Evaisa-HookGenPatcher-0.0.5
-    - Evaisa-LethalLib-0.7.0
+    - Evaisa-LethalLib-0.11.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 8
-    patch: 8
+    minor: 9
+    patch: 4
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Evaisa-LethalThings\icon.png
 - manifestVersion: 1
@@ -857,7 +859,7 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
+    minor: 1
     patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\NutNutty-SellTracker\icon.png
@@ -866,7 +868,7 @@
   authorName: Hexnet111
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Hexnet111/SuitSaver/
   displayName: SuitSaver
-  description: A plugin for saving your last used suit. (Compatible with v45)
+  description: A plugin for saving your last used suit. (Compatible with v47)
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -879,7 +881,7 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 2
+    patch: 4
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Hexnet111-SuitSaver\icon.png
 - manifestVersion: 1
@@ -944,7 +946,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Drakorle-MoreItems\icon.png
 - manifestVersion: 1
@@ -995,8 +997,9 @@
   authorName: kuba6000
   websiteUrl: https://thunderstore.io/c/lethal-company/p/kuba6000/LC_Masked_Fix/
   displayName: LC_Masked_Fix
-  description: Fixes mimic / masked bug where you can't look around after the kill
-    is interrupted.
+  description: "[V47/V48/V49] Fixes a bug where the red screen overlay / vomit
+    animation is not removed until you die. [V45] Fixes mimic / masked bug where
+    you can't look around after the kill is interrupted."
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1008,7 +1011,7 @@
   versionNumber:
     major: 0
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\kuba6000-LC_Masked_Fix\icon.png
 - manifestVersion: 1
@@ -1096,7 +1099,7 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 8
+    patch: 10
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\IntegrityChaos-Diversity\icon.png
 - manifestVersion: 1
@@ -1302,7 +1305,7 @@
   authorName: EladNLG
   websiteUrl: https://thunderstore.io/c/lethal-company/p/EladNLG/EladsHUD/
   displayName: EladsHUD
-  description: Replaces the player hud with a different one.
+  description: More configurable than the other one...
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1314,8 +1317,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 0
+    minor: 2
+    patch: 1
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\EladNLG-EladsHUD\icon.png
 - manifestVersion: 1
@@ -1424,7 +1427,7 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 16
+    patch: 18
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\HolographicWings-LethalExpansion\icon.png
 - manifestVersion: 1
@@ -1454,7 +1457,7 @@
   authorName: sfDesat
   websiteUrl: https://thunderstore.io/c/lethal-company/p/sfDesat/Orion/
   displayName: Orion
-  description: A new moon. [1.0 Release]
+  description: A new moon.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1462,13 +1465,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - HolographicWings-LethalExpansion-1.3.14
+    - HolographicWings-LethalExpansion-1.3.18
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 4
+    minor: 2
+    patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\sfDesat-Orion\icon.png
 - manifestVersion: 1
@@ -1491,6 +1494,49 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 7
+    patch: 8
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\TheFluff-FairAI\icon.png
+- manifestVersion: 1
+  name: AlexCodesGames-AdditionalContentFramework
+  authorName: AlexCodesGames
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/AlexCodesGames/AdditionalContentFramework/
+  displayName: AdditionalContentFramework
+  description: Acts as a module loader for other mods, allowing you to easily add
+    your own custom items to Lethal Company!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalContentFramework\icon.png
+- manifestVersion: 1
+  name: Ozone-Runtime_Netcode_Patcher
+  authorName: Ozone
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Runtime_Netcode_Patcher/
+  displayName: Runtime_Netcode_Patcher
+  description: Patches Netcode RPC methods during runtime utilizing Harmony
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 5
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Ozone-Runtime_Netcode_Patcher\icon.png

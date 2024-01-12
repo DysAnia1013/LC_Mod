@@ -7,6 +7,10 @@
       - suitID: unique identifier used in-game to identify the item (doesn't do anything atm, but will be needed for shop unlocks)
       - suitName: name that will be displayed when the player hovers over the suit in game
       - suitTexture: name of the texture image that will be used to render the suit (include file extension)
+
+    NOTES:
+      - do not add comments outside of this comment, doing so will break the json parser. if you have test entries
+        that need to be disabled just add them to this comment.
 */
 {
   "unlockableSuits": [

@@ -1,44 +1,77 @@
-# More Emotes V1.2.2 - Sligili - v45 | v40
+# More Emotes V1.3.3 - Sligili
 
-## INSTALLATION 🛠
-Extract on the main game folder (where ```Lethal Company.exe``` is located). Make sure you have [BepInEx](https://github.com/BepInEx/BepInEx) installed
+## MANUAL INSTALLATION 🛠
+Extract into the main game folder (where ```Lethal Company.exe``` is located). Ensure you have [BepInEx](https://github.com/BepInEx/BepInEx) and [RuntimeNetcodePatcher](https://thunderstore.io/c/lethal-company/p/Ozone/Runtime_Netcode_Patcher/) installed.
 
-## DESCRIPTION 🙄
-Adds custom emotes. Aims to be as vanilla friendly **as possible**. It's client side so only people with the mod installed will see the new animations.
 
-## CUSTOM BINDS ⚙
-### (In-Game) Settings -> More Emotes
-### Or open ```BepInEx/config/MoreEmotes.cfg``` with a text editor and change the key values to any of these supported characters ***A-Z | 0-9 | F1-F12***.
+## DESCRIPTION 📝
+### - Compatible with all versions up to **v49** -
 
-## EMOTE WHEEL 🐄 
-#### Default Key ```V```
-![EmoteWheel](https://i.imgur.com/VrAItbd.jpg)
+Seamlessly integrates with the vanilla game. Certain emotes produce sounds (no songs), such as footsteps, that enemies can hear as well, so be careful where you clap. All emotes play on first person. Supports controller and should work with any LethalEmotesAPI mod and TooManyEmotes.
 
-## ANIMATIONS 👨‍🦯
-#### Middle Finger - Default Key: ```3```
-![CustomEmote1](https://i.imgur.com/WZQNiMo.jpeg)
------------------------------------------------------
-#### Clap - Default Key ```4```
-![CustomEmote2](https://i.imgur.com/UCuMpFq.jpg)
------------------------------------------------------
-#### Shy - Default Key ```5```
-![CustomEmote3](https://i.imgur.com/YMeoTtz.jpg)
------------------------------------------------------
-#### The Griddy - Default Key: ```6```
-![CustomEmote4](https://i.imgur.com/jDfY7V1.jpg)
------------------------------------------------------
-#### Twerk - Default Key: ```7```
-![CustomEmote5](https://i.imgur.com/e1qanLt.jpg)
------------------------------------------------------
-#### Salute - Default Key: ```8```
-![CustomEmote6](https://i.imgur.com/4zWVfSi.jpg)
+> The host needs to have the mod installed for the sign emote to work
+
+## CONFIGURATION ⚙
+Use either the in-game **More Emotes** menu found under **Settings** or the configuration file (open ```BepInEx/config/MoreEmotes.cfg``` with a text editor if manually installed, otherwise use the **r2modman // thunderstore** config editor). Ensure to set ```Use Config File``` to true if opting for the latter.
+
+## EMOTE WHEEL 🎡 
+ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎  ‎‎‎‎‎‎‎‎‎ **‎‎‎Default Key : ```V```** or **```LB / L1```** 
+
+ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎![EmoteWheel](https://i.imgur.com/FRQbygZ.jpg)
+
+## EMOTES 👨‍🦯
+| ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎Middle Finger |  ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ Clap |  ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎ Shy|
+| --- | --- | --- |
+| ![Middle Finger](https://i.imgur.com/Z1U4Ff0.jpg) | ![Clap](https://i.imgur.com/SBhR7yr.jpg) | ![Shy](https://i.imgur.com/x9RIYrA.jpg) |
+| ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ Default Key: ```3``` | ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ Default Key: ```4``` | ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ Default Key: ```5``` |
+
+| ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎  ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎The Griddy|‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎Twerk |ㅤㅤㅤㅤㅤㅤㅤㅤSalute|
+| :---: | :---: | :---: |
+| ![TheGriddy](https://i.imgur.com/owa90oo.jpg) | ![Twerk](https://i.imgur.com/e1qanLt.jpg) | ![Salute](https://i.imgur.com/4zWVfSi.jpg) |
+| ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ Default Key: ```6``` | ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ Default Key: ```7``` | ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ Default Key: ```8``` |
+
+|ㅤㅤㅤㅤㅤㅤㅤPrisyadka|ㅤㅤㅤㅤㅤㅤㅤㅤSign| 
+| :---: | :---: |
+| ![Prisyadka](https://i.imgur.com/oGp7GAx.jpg) | ![Sign](https://i.imgur.com/oF9Pvb5.jpg) |
+| ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ Default Key: ```9``` | ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ Default Key: ```0``` |
 
 
 ## CHANGELOG 🕗
 
+Join the [LC Modding](https://discord.gg/XeyYqRdRGC) server to report bugs or incompatibilities on the More Emotes thread. 
+
+- ***v1.3.3:***
+     - You should now be unable to emote while performing an emote from TooManyEmotes.
+     - RuntimeControllers are now OverrideControllers (Previous versions are not going to work with newer versions of TooManyEmotes anymore)
+     - Fixed current emote not updating for others on 'StopPerformingEmote'
+- ***v1.3.2:***
+     - Corrected an issue where emote wheel keybinds couldn't be left blank
+     - Corrected the default controller emote wheel key, which was set to 'V' by accident
+     - Converted alternative emotes into positive values to prevent conflicts with other mods
+- ***v1.3.1:***
+     - Disabled debug logs 😶
+- ***v1.3.0:***
+     - Compatibility with v47, v48 and v49
+     - Added the Prisyadka and Sign emotes
+     - Perform middle finger twice to use both hands
+     - Perform the clap emote twice to clap faster
+     - Added controller support
+     - Enhanced griddy and shy first-person animations
+     - Revamped emote wheel and the settings menu appearance
+     - Fixed a bug where the previous animation will play for a few frames before actually performing the correct one
+     - Fixed animations not playing from the beginning after performing them once
+     - Fixed IK issues after playing specific animations
+     - Handled a null exception on game launch
+     - Fixed players not doing the spawn animation
+     - Fixed Level and Beta badges rendering on the first-person camera
+     - Now the emote wheel input will be ignored while typing in the chat and when pressing ctrl
+     - Fixed the Inventory Check toggle not displaying the actual value
+     - The config file works again, but you need to toggle "Use Config File" in it
+     - Tweaked the icon
+     
 - ***v1.2.2:***
      - Added an in-game settings menu
-     - Fixed blank keybinds spamming the log with errors
+     - Fixed blank key binds spamming the log with errors
      - Removed config file from the zip. Open the game once to generate it.
 - ***v1.2.1:***
      - Updated Readme, forgot some info 👉👈
@@ -67,10 +100,4 @@ Adds custom emotes. Aims to be as vanilla friendly **as possible**. It's client 
 - ***v1.0.0:*** 
      - Initial release 😎
 
-## BACKLOG 👻
-Join the [LC Modding](https://discord.gg/XeyYqRdRGC) server if you wanna suggest animations. I could use some help with animating stuff as well.
-   - Disable emotes
-   - Dab emote
-   - (maybe) Custom wheel layout
-   - Noises to the emote wheel
 

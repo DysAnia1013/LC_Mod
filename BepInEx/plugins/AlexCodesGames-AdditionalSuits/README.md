@@ -1,5 +1,4 @@
-
-# Additional Suits v1.1.3
+# Additional Suits v2.0.0
 ## About
 Adds 8 more standard suits to your initial closet at the start of the game! Great for organizing larger crews!
 
@@ -10,6 +9,8 @@ Follow my socials to stay in the loop for new updates, mod, and games I'm workin
 [X](https://twitter.com/AlexCodesGames) | [Instagram](https://www.instagram.com/alexcodesgames/) | [Discord](https://discordapp.com/users/the_shadow_wizard)
 
 ## Instructions - Installation
+This mod relies on [AdditionalContentFramework](https://thunderstore.io/c/lethal-company/p/AlexCodesGames/AdditionalContentFramework/), so you need to download that as well
+
 Automatic: Click 'Install with Mod Manager' button (ensure you have the Thunderstore mod manager installed).
 
 Manual: Export the main folder into your BepInEx/plugins folder.
@@ -25,9 +26,11 @@ All suite definitions are in the 'suit-defs.json', this includes details such as
 When you load your game your new suit should be added!
 
 ## Additional Info
-If you are interested in the raw source, you can find the project file in this [GitHub Repo](https://github.com/RabidCodeHog/LC-Additional-Suits/). Feel free to use it in any way you wish!
+If you are interested in the raw source, you can find the project file in this [GitHub Repo](https://github.com/AlexCodesGames/LC-Additional-Content-Framework/). Feel free to use it in any way you wish!
 
 ## Changelog
+	- v2.0.0
+		- Split project into a modular framework (this mod is now just a module that plugs into loader framework), this *should* fix a TON of conflicts & make it easier to add/share your own suits
 	- v1.1.3
 		- Formatting x_x
 	- v1.1.2

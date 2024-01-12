@@ -1,3 +1,6 @@
+# 1.5.8
++ Added support for InputUtils, as a soft dependency. If this mod is enabled, you will be able to access any relevant hotkeys within the game's keybind menu.
++ Tweaks to fix an issue with flashlight turning on randomly when doing something kinda specific?
 # 1.5.7
 + Actually fixed laser pointer this time.
 # 1.5.6

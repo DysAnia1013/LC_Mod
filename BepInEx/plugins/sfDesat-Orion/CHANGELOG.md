@@ -1,3 +1,13 @@
+- 1.2.0
+  - Increased cost 650 > 800
+  - Decreased Factory Size 2.5 > 2.4
+  - Indoor/Outdoor Enemies spawn later in the day
+  - Added a wiki
+  - Added a planet preview
+  - Added some subtle post processing
+  - Fixed dropship landing in the ground
+  - Fixed the navmesh
+
 - 1.1.4
   - Disabled Eclipsed Weather
   - Disabled Rainy Weather

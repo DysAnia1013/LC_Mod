@@ -1,0 +1,11 @@
+{
+  "namespace": "Ozone",
+  "name": "Runtime_Netcode_Patcher",
+  "description": "Patches Netcode RPC methods during runtime utilizing Harmony",
+  "version_number": "0.2.5",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ],
+  "website_url": "https://github.com/NicholasScott1337/RuntimeNetcodeRPCValidator",
+  "FullName": "Ozone-Runtime_Netcode_Patcher"
+}

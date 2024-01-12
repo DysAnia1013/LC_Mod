@@ -1,11 +1,8 @@
 # Diversity
 
 # Important Message!
-First of all, thank you all for all the feedbacks and for reaching over 150K+ downloads! Y'all are amazing!
-Secondly, I will soon take a small break of 4-5 days since I've been overworking myself lately working on Diversity (I don't know when yet, I will announce it on my Discord server.)
-Additionally, I am potentially looking for some skilled people that could help me making this mod an even better mod! (Mainly asset creation such as art, models and texturing.) I've been making everything all by myself, except for the voice acting, and it's very time consuming... You'll be credited, and compensated if needed! If interested please join my [Discord server](https://discord.gg/4APzjc8fNW) and let me know!
-Lastly, I am working on a big update, yet again, that will add even more awesome content! Stay tuned!
-I also wish all of you a happy new year!!!
+I have opened Beta Testing on my [Discord server](https://discord.gg/4APzjc8fNW)! Just respect the rules for the beta testing please!
+I will now be working on version 2.0.0 which will be a MASSIVE update adding much more content than I ever did! It will be very much time consuming so expect no updates for the coming week!
 
 ## [Discord](https://discord.gg/4APzjc8fNW)
 You can join our [Discord server](https://discord.gg/4APzjc8fNW) to report issues or just to come chat with us!
@@ -31,17 +28,29 @@ This is what Diversity revamps:
 ## The Bracken
 - The Bracken will now stay true to his darkness. He will flicker and turn off all nearby lights and will dim player's flashlights if they're close to the Bracken.
 - The lights turned off by the Bracken will naturally turn back on after a minute or 2.
-- Trying to forcibly turn back on the lights with the breaker box could cause the Bracken to be angered for a while and shut off all power permanently.
+- Trying to forcibly turn back on the lights with the breaker box could cause the Bracken to be angered for a while and causes fear. The power also becomes shut off permanently.
+- The Bracken will turn off all nearby radar boosters.
+- The Bracken will turn off the breaker box occasionally.
+- Taking the apparatus will now immediately anger the Bracken, chasing the player who angered the Bracken.
+- The Bracken now has a personal space.
 
 ## The Dress girl
 - She will haunt your walkie-talkie.
 - She now has the ability to isolate you and to give you hallucinations.
+- She has new voice lines.
 
 ## The Centipedes
-- You can now help your friends out whenever a centipede is latched onto their head by spamming the use button if you don't have a shovel.
+- You can now help your friends out whenever a centipede is latched onto their head by spamming the use button if you don't have a shovel. 
+- Trying to help free a centipede from a player's head could hurt you.
 
 ## The Players
-- Players will receive conditions such as broken leg, broken arm and bleeding.
+- Players will receive conditions such as broken leg, broken arm, bleeding, blindness, and concussions.
+- Players will have true darkness when there are no lights inside, it is recommended to bring a flashlight.
 
 ## Config
 Mostly anything in this mod is configurable. If there's something you'd like to be able to configure and isn't there, either join the [Discord server](https://discord.gg/4APzjc8fNW) or contact me by email (contact@integritychaos.com) and I'll make the changes on the next mod update!
+
+## Credits
+- Alcatras240: Voice actor.
+- Moroxide: General helper
+- [Grim Company](https://www.youtube.com/@grimcompany): Mod page writter.

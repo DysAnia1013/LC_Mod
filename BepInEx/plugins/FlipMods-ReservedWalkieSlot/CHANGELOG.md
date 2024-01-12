@@ -1,3 +1,6 @@
+# 1.5.4
++ Added support for InputUtils, as a soft dependency. If this mod is enabled, you will be able to access any relevant hotkeys within the game's keybind menu.
++ Undid the edited tooltip for the walkie controls.
 # 1.5.3
 + Fixed a specific issue causing an error about index out of range.
 # 1.5.2

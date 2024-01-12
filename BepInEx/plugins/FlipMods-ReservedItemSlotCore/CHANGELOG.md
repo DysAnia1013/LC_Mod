@@ -1,3 +1,34 @@
+# 1.8.8
++ Added more checks, and prevented some more issues if host does not have mod. (Again, use with caution!)
+# 1.8.7
++ Fixed bug with controllers not being able to scroll through reserved hotbar slots with d-pad. (or another keybind)
++ Added some compatibility checks.
++ Reallowed use of reserved slot mods even if host doesn't have them. Use with caution!
++ Automatically changes any relevant control tooltips if player is using a controller or not.
+# 1.8.6
++ Some compat tweaks.
++ Focus reserved hotbar tooltip now changes when keybind is updated in game. (with InputUtils)
+# 1.8.5
++ Fixed the bug preventing you from swapping hotbars that I created in 1.8.4 (sorry!)
+# 1.8.4
++ Removed old code that had methods being called before they were instantiated. Hopefully fixes some errors people are getting.
+# 1.8.3
++ Fixed typo in bug.
++ Forgot to re-edit a line of code I changed that prevented the server from getting hotbar swap updates from the clients.
+# 1.8.2
++ Fixed some bugs.
++ Added support for InputUtils, as a soft dependency. If this mod is enabled, you will be able to access any relevant hotkeys within the game's keybind menu. (will do the same for the individual reserved mods soon)
++ Added to the compatibility logic for other mods that increase inventory size. (may need more testing)
++ The reserved hotbar scroll direction should now match the mouse, regardless of inverted scroll settings.
++ (Readded) Swapping between reserved hotbar slots will now skip empty slots.
++ Attempted to refix compat with AdvancedCompany. May or may not work? No promises!
+# 1.8.1
++ Added debug logs and dumps when errors occur when certain functions are called with incorrect values. Hopefully people share these with me on the Lethal Company Modding Discord!
+# 1.8.0
++ Support for v47.
++ Slight code structure revamp.
++ Add compatibility between other mods that may change players' inventory size dynamically, such as LethalThings' utility belt. Not guaranteed for all mods.
++ Maybe added some bugs, idk.
 # 1.7.7
 + Potential fix for the infamous de-sync issue.
 # 1.7.6

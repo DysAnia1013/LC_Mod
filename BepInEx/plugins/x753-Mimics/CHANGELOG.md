@@ -1,3 +1,7 @@
+## v2.3.2 Updated for v47
+- Fixed bestiary entry for real this time
+- The mod now works on v47
+
 ## v2.3.1 Lore for Everyone
 - Bestiary entry for mimics now works for remote clients
 
