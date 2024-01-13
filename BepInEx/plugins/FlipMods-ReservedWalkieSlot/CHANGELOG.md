@@ -1,3 +1,7 @@
+# 1.5.5
++ Changes to support ReservedItemSlotCore 1.8.9
++ Fixed issue with not being able to type correctly in terminal with walkie equipped, and pressing the talk hotkey.
++ Fixed issue with building placement/rotation being canceled when speaking into walkie.
 # 1.5.4
 + Added support for InputUtils, as a soft dependency. If this mod is enabled, you will be able to access any relevant hotkeys within the game's keybind menu.
 + Undid the edited tooltip for the walkie controls.

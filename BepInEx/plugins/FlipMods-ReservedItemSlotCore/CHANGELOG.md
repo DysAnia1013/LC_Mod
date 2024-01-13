@@ -1,3 +1,9 @@
+# 1.8.9
++ Fixed some issues throwing errors in the console.
++ Fixed item appearing quickly and then disappearing from your hand when you pick up a reserved item.
++ Fixed control tips flickering to grabbed reserved item controls, and then back to the previous controls.
++ Maybe fixed more cases where you can't scroll in the reserved slots?
++ Added more code to support features for the reserved item slot mods.
 # 1.8.8
 + Added more checks, and prevented some more issues if host does not have mod. (Again, use with caution!)
 # 1.8.7

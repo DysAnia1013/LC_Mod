@@ -1,3 +1,5 @@
+# 1.5.9
++ Changes to support ReservedItemSlotCore 1.8.9.
 # 1.5.8
 + Added support for InputUtils, as a soft dependency. If this mod is enabled, you will be able to access any relevant hotkeys within the game's keybind menu.
 + Tweaks to fix an issue with flashlight turning on randomly when doing something kinda specific?

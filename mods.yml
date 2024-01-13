@@ -101,9 +101,9 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 6
+    patch: 7
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\RugbugRedfern-Skinwalkers\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\RugbugRedfern-Skinwalkers\2.0.7\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedItemSlotCore
   authorName: FlipMods
@@ -123,7 +123,7 @@
   versionNumber:
     major: 1
     minor: 8
-    patch: 8
+    patch: 9
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
@@ -140,13 +140,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.8.6
+    - FlipMods-ReservedItemSlotCore-1.8.9
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 8
+    patch: 9
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
 - manifestVersion: 1
@@ -206,13 +206,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.8.6
+    - FlipMods-ReservedItemSlotCore-1.8.9
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 4
+    patch: 5
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
 - manifestVersion: 1
@@ -437,6 +437,7 @@
   displayName: ObjectVolumeController
   description: Allows adjusting the volume on the media objects, such as
     television, boombox, and record player, by pressing the [-] and [+] keys.
+    Can configure the default volumes for each device!
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -449,7 +450,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 3
+    patch: 4
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ObjectVolumeController\icon.png
 - manifestVersion: 1
@@ -647,7 +648,7 @@
     minor: 12
     patch: 1
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\Evaisa-LethalLib\0.12.1\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Evaisa-LethalLib\icon.png
 - manifestVersion: 1
   name: OnePeak-Low_Budget_One_Piece_suits
   authorName: OnePeak
@@ -706,8 +707,8 @@
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
-    minor: 1
+    major: 2
+    minor: 0
     patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\EliteMasterEric-WackyCosmetics\icon.png
@@ -1427,7 +1428,7 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 18
+    patch: 19
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\HolographicWings-LethalExpansion\icon.png
 - manifestVersion: 1
