@@ -1,9 +1,0 @@
-{
-    "name": "Space_Pajamas_Suit",
-    "version_number": "1.0.6",
-    "website_url": "https://github.com/x753/Lethal-Company-More-Suits",
-    "description": "Adds 3 different glow in the dark space pajamas suit.",
-    "dependencies": [
-        "x753-More_Suits-1.3.0"
-    ]
-}

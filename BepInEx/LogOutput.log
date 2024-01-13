@@ -23,7 +23,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 35 plugins to load
+[Info   :   BepInEx] 41 plugins to load
 [Info   :   BepInEx] Loading [VoiceHUD 1.0.4]
 [Info   :   BepInEx] Loading [BoomboxSyncFix 1.1.0]
 [Info   :BoomboxSyncFix] Plugin BoomboxSyncFix has loaded!
@@ -56,31 +56,39 @@
 [Info   :   BepInEx] Loading [ItemQuickSwitchMod 1.1.0]
 [Info   :ItemQuickSwitchMod] ItemQuickSwitchMod is creating binds!
 [Info   :ItemQuickSwitchMod] Plugin ItemQuickSwitchMod is loaded!
-[Info   :   BepInEx] Loading [BetterStamina 1.3.2]
-[Info   :BetterStamina] BindingConfigs
-[Info   :BetterStamina] BetterStamina loaded
-[Info   :   BepInEx] Loading [ObjectVolumeController 1.0.4]
-[Info   :ObjectVolumeController] BindingConfigs
-[Info   :ObjectVolumeController] ObjectVolumeController loaded
+[Info   :   BepInEx] Loading [LethalLib 0.12.1]
+[Info   : LethalLib] LethalLib loaded!!
+[Info   : LethalLib] Utilities.Init()
 [Info   :   BepInEx] Loading [ReservedItemSlotCore 1.8.9]
 [Info   :ReservedItemSlotCore-1.8.9] BindingConfigs
 [Info   :ReservedItemSlotCore-1.8.9] Cleaning old config entries
 [Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly ReservedItemSlotCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
 Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
-  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:IL_0000 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_000D 
 System.IO.FileNotFoundException: Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
 File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
 [Info   :ReservedItemSlotCore-1.8.9] ReservedItemSlotCore loaded
+[Info   :   BepInEx] Loading [LethalThings 0.9.4]
+[Info   :LethalThings] LethalLib version is 0.12.1, which is compatible with LethalThings 0.9.0+
+[Info   :LethalThings] [Compatibility] ReservedItemSlotCore version is 1.8.9, which is compatible with LethalThings 0.8.0+
+[Info   : LethalLib] [LethalLib] LethalThings is registering 26 content items!
+[Info   :LethalThings] LethalThings loaded successfully!!!
+[Info   :   BepInEx] Loading [BetterStamina 1.3.2]
+[Info   :BetterStamina] BindingConfigs
+[Info   :BetterStamina] BetterStamina loaded
+[Info   :   BepInEx] Loading [ObjectVolumeController 1.0.4]
+[Info   :ObjectVolumeController] BindingConfigs
+[Info   :ObjectVolumeController] ObjectVolumeController loaded
 [Info   :   BepInEx] Loading [ReservedFlashlightSlot 1.5.9]
 [Info   :ReservedFlashlightSlot] BindingConfigs
 [Info   :ReservedFlashlightSlot] Cleaning old config entries
 [Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly ReservedFlashlightSlot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
 Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
-  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:IL_0000 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_000D 
 System.IO.FileNotFoundException: Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
 File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
 [Info   :ReservedFlashlightSlot] ReservedFlashlightSlot loaded
@@ -90,8 +98,8 @@ File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKey
 [Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly ReservedWalkieSlot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
 Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
-  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:IL_0000 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_000D 
 System.IO.FileNotFoundException: Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
 File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
 [Info   :ReservedWalkieSlot] ReservedWalkieSlot loaded
@@ -104,23 +112,13 @@ File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKey
 [Info   :HideModList] Plugin HideModList is loaded!
 [Info   :   BepInEx] Loading [HoldScanButton 1.1.1]
 [Info   :HoldScanButton] Plugin HoldScanButton has loaded!
-[Info   :   BepInEx] Loading [LethalPresents 1.0.4]
-[Info   :LethalPresents] Plugin LethalPresents is loaded!
-[Info   :LethalPresents] Following enemies wont be spawned from the gift:
-[Info   :LethalPresents] 
-[Info   :   BepInEx] Loading [LocalizationCore_BepinEx6 1.0.0]
-[Info   :LocalizationCore_BepinEx6] Initialize Start
-[Info   :LocalizationCore_BepinEx6] Load Resource
-[Info   :LocalizationCore_BepinEx6] Load Online Text
-[Info   :LocalizationCore_BepinEx6] None Online Text , Use Local Online Text
-[Info   :LocalizationCore_BepinEx6] Success Load 2114 Local Online Text
-[Info   :LocalizationCore_BepinEx6] Load Online Feature Text
-[Info   :LocalizationCore_BepinEx6] None Online Feature Text , Use Local Online Feature Text
-[Info   :LocalizationCore_BepinEx6] Success Load 120 Local Online Feature Text
-[Info   :LocalizationCore_BepinEx6] Load Online Map
-[Info   :LocalizationCore_BepinEx6] Load Online Map Fail, Use Local Map.
-[Info   :LocalizationCore_BepinEx6] Load Core
-[Info   :LocalizationCore_BepinEx6] Initialize Success
+[Info   :   BepInEx] Loading [TZP Reworked: Healing 1.1.0.0]
+[Info   :Hotoni.TZPHEAL] TZP HEAL loaded
+[Info   :   BepInEx] Loading [LC_Masked_Fix 0.0.2]
+[Info   :kuba6000.LC_MimicFixMod] Mimic Fix Awaken!
+[Info   :kuba6000.LC_MimicFixMod] V47/48/49 - Fixes red screen overlay / vomit screen after the kill is inturrupted
+[Info   :kuba6000.LC_MimicFixMod] V45 - Fixes stuck screen after interrupting the kill animation
+[Info   :kuba6000.LC_MimicFixMod] Patching MaskedPlayerEnemy
 [Info   :   BepInEx] Loading [MoreCompany 1.7.4]
 [Info   :MoreCompany] Loading MoreCompany...
 [Info   :MoreCompany] Checking: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins/MoreCompanyCosmetics
@@ -154,7 +152,144 @@ File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKey
 [Info   :MoreCompany] Loaded cosmetic: wackycosmetics.tbhcreature from bundle
 [Info   :MoreCompany] Loaded cosmetic: wackycosmetics.toweringpillarofhats from bundle
 [Info   :MoreCompany] Loaded cosmetic: wackycosmetics.valkyriehelm from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.AbbyEars from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.AbbyTail from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.Absa from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.AbsaTail from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.AmongUs from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.BalloonBoyMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.Bana from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.BonnieMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.BreadbugHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.BucketHelm from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.BulborbHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.CalliHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.CalliopeMoriScythe from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.ChicaMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.CowboyHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.DreamBreaker from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.EmberCrown from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.EmberSlime from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.EmberSword from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.FoxyMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.FreddyMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.IHeartRobloxHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.KickMeNote from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.MaleniaHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.MangleMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.MioCoreCrystal from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.MioHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.Monado from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.NerdEmoji from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.NiaCoattail from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.NiaCoreCrystal from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.NiaHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.NiaScimitar from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.Pot from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.RanniHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.RikuHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.StrangeMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.SybilHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.SybilTail from bundle
+[Info   :MoreCompany] Loaded cosmetic: NiaNation.Turters from bundle
 [Info   :MoreCompany] Loaded MoreCompany FULLY
+[Info   :   BepInEx] Loading [LethalExpansion 1.3.19]
+[Info   :LethalExpansion] PluginName: LethalExpansion, VersionString: 1.3.19 is loading...
+[Info   :LethalExpansion] Getting other plugins list
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: VoiceHUD - Version: 1.0.4 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: BoomboxSyncFix - Version: 1.1.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: Lethal Company API - Version: 3.3.2 - Compatibility: good
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: Coroner - Version: 1.5.3 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: ShipLobby - Version: 1.0.2 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: Custom Boombox Music - Version: 1.4.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: CrossHair - Version: 1.0.5 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: ItemQuickSwitchMod - Version: 1.1.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: LethalLib - Version: 0.12.1 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: ReservedItemSlotCore - Version: 1.8.9 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: LethalThings - Version: 0.9.4 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: BetterStamina - Version: 1.3.2 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: ObjectVolumeController - Version: 1.0.4 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: ReservedFlashlightSlot - Version: 1.5.9 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: ReservedWalkieSlot - Version: 1.5.5 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: WirelessCharging - Version: 1.0.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: Dynamic Deadline - Version: 1.2.2 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: Suit Saver - Version: 1.1.2 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: HideModList - Version: 1.0.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: HoldScanButton - Version: 1.1.1 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: TZP Reworked: Healing - Version: 1.1.0.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: LC_Masked_Fix - Version: 0.0.2 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Warning:LethalExpansion] Plugin: MoreCompany - Version: 1.7.4 - Compatibility: medium
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion] Plugins folder found: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins
+[Info   :LethalExpansion] Mod path is: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\HolographicWings-LethalExpansion
+[Info   :LethalExpansion] Module found: OldSeaPort v1.3.15.0 Loaded in 2265ms
+[Info   :LethalExpansion] Module found: TemplateMod v1.3.17.0 Loaded in 140ms
+[Info   :LethalExpansion] Module found: Orion v1.1.3.0 Loaded in 4742ms
+[Info   :LethalExpansion] Module found: CastleGrounds v1.2.11.0 Loaded in 1453ms
+[Info   :LethalExpansion] Water support applied to the HDRenderPipelineAsset.
+[Info   :LethalExpansion] PluginName: LethalExpansion, VersionString: 1.3.19 is loaded.
+[Info   :   BepInEx] Loading [LethalPresents 1.0.4]
+[Info   :LethalPresents] Plugin LethalPresents is loaded!
+[Info   :LethalPresents] Following enemies wont be spawned from the gift:
+[Info   :LethalPresents] 
+[Info   :   BepInEx] Loading [LocalizationCore_BepinEx6 1.0.0]
+[Info   :LocalizationCore_BepinEx6] Initialize Start
+[Info   :LocalizationCore_BepinEx6] Load Resource
+[Info   :LocalizationCore_BepinEx6] Load Online Text
+[Info   :LocalizationCore_BepinEx6] None Online Text , Use Local Online Text
+[Info   :LocalizationCore_BepinEx6] Success Load 2114 Local Online Text
+[Info   :LocalizationCore_BepinEx6] Load Online Feature Text
+[Info   :LocalizationCore_BepinEx6] None Online Feature Text , Use Local Online Feature Text
+[Info   :LocalizationCore_BepinEx6] Success Load 120 Local Online Feature Text
+[Info   :LocalizationCore_BepinEx6] Load Online Map
+[Info   :LocalizationCore_BepinEx6] Load Online Map Fail, Use Local Map.
+[Info   :LocalizationCore_BepinEx6] Load Core
+[Info   :LocalizationCore_BepinEx6] Initialize Success
 [Info   :   BepInEx] Loading [MaskedEnemyRework 2.4.0]
 [Info   :MaskedEnemyRework] Plugin MaskedEnemyRework is loaded! Woohoo!
 [Info   :   BepInEx] Loading [Elads HUD 1.1.0]
@@ -167,6 +302,7 @@ File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKey
 [Info   :RuntimeNetcodeRPCValidator] Successfully registered first patch for type PlayerControllerB.Awake | Triggered by MoreEmotes
 [Info   :   BepInEx] Loading [MoreItems 1.0.2]
 [Info   : MoreItems] Plugin MoreItems is loaded!
+[Info   :   BepInEx] Loading [NuclearLib 1.0.4]
 [Info   :   BepInEx] Loading [BepInUtils 1.2.1]
 [Info   :BepInUtils] System loaded.
 [Info   :   BepInEx] Loading [Lethal Company API 0.0.5]
@@ -215,5 +351,425 @@ File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKey
 [Info   :Lethal Company API] LC_API Started!
 [Info   :ReservedFlashlightSlot] Initializing hotkeys.
 [Info   :ReservedWalkieSlot] Initializing hotkeys.
+[Info   :LethalExpansion] Loading scene: InitSceneLaunchOptions
+[Info   :LethalExpansion] Unloading scene: InitSceneLaunchOptions
+[Info   :LethalExpansion] Loading scene: InitScene
+[Info   :LethalExpansion] itemshipanimcontainer Prefab registered.
+[Info   :LethalExpansion] Battery Scrap registered.
+[Info   :LethalExpansion] Canned Food Scrap registered.
+[Info   :LethalExpansion] Matchbox Scrap registered.
+[Info   :LethalExpansion] Pills Scrap registered.
+[Info   :LethalExpansion] Tape Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Battery Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Canned Food Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Matchbox Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Pills Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Tape Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Battery Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Canned Food Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Matchbox Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Pills Scrap registered.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal PhysicsProp component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
+[Info   :LethalExpansion] Tape Scrap registered.
+[Info   :LethalExpansion] Unloading scene: InitScene
+[Info   :LethalExpansion] Loading scene: MainMenu
+[Info   :LethalExpansion] LethalExpansion Host Started.
+[Message:Lethal Company API] server pre-setup success
+[Info   :LethalExpansion] Unloading scene: MainMenu
+[Info   :LethalThings] Spawning config manager
+[Info   :Custom Boombox Music] Preparing to load AudioClips...
+[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\an hao.mp3!
+[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\COCO.mp3!
+[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\GOD.mp3!
+[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\hei ren tai guan.mp3!
+[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\I Really Want to Stay at Your House.mp3!
+[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\never gona give you up.mp3!
+[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\OW.mp3!
+[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\see you again.mp3!
+[Info   : LethalLib] Added Boomba to ExperimentationLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to AssuranceLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to VowLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to CompanyBuildingLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to MarchLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to RendLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to DineLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to OffenseLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to TitanLevel with SpawnType [Default]
+[Info   : LethalLib] Added TeleporterTrap to ExperimentationLevel
+[Info   : LethalLib] Added TeleporterTrap to AssuranceLevel
+[Info   : LethalLib] Added TeleporterTrap to VowLevel
+[Info   : LethalLib] Added TeleporterTrap to CompanyBuildingLevel
+[Info   : LethalLib] Added TeleporterTrap to MarchLevel
+[Info   : LethalLib] Added TeleporterTrap to RendLevel
+[Info   : LethalLib] Added TeleporterTrap to DineLevel
+[Info   : LethalLib] Added TeleporterTrap to OffenseLevel
+[Info   : LethalLib] Added TeleporterTrap to TitanLevel
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   : LethalLib] Adding 4 unlockables to unlockables list
+[Info   : LethalLib] Adding 4 items to terminal
+[Info   : LethalLib] LethalLib registered item: Small Rug
+[Info   : LethalLib] LethalLib registered item: Large Rug
+[Info   : LethalLib] LethalLib registered item: Fatalities Sign
+[Info   : LethalLib] LethalLib registered item: Dartboard
+[Info   : LethalLib] Added ArsonPlush to ExperimentationLevel
+[Info   : LethalLib] Added ArsonPlush to AssuranceLevel
+[Info   : LethalLib] Added ArsonPlush to VowLevel
+[Info   : LethalLib] Added ArsonPlush to CompanyBuildingLevel
+[Info   : LethalLib] Added ArsonPlush to MarchLevel
+[Info   : LethalLib] Added ArsonPlush to RendLevel
+[Info   : LethalLib] Added ArsonPlush to DineLevel
+[Info   : LethalLib] Added ArsonPlush to OffenseLevel
+[Info   : LethalLib] Added ArsonPlush to TitanLevel
+[Info   : LethalLib] Added CookieFumo to ExperimentationLevel
+[Info   : LethalLib] Added CookieFumo to AssuranceLevel
+[Info   : LethalLib] Added CookieFumo to VowLevel
+[Info   : LethalLib] Added CookieFumo to CompanyBuildingLevel
+[Info   : LethalLib] Added CookieFumo to MarchLevel
+[Info   : LethalLib] Added CookieFumo to RendLevel
+[Info   : LethalLib] Added CookieFumo to DineLevel
+[Info   : LethalLib] Added CookieFumo to OffenseLevel
+[Info   : LethalLib] Added CookieFumo to TitanLevel
+[Info   : LethalLib] Added ToimariPlush to ExperimentationLevel
+[Info   : LethalLib] Added ToimariPlush to AssuranceLevel
+[Info   : LethalLib] Added ToimariPlush to VowLevel
+[Info   : LethalLib] Added ToimariPlush to CompanyBuildingLevel
+[Info   : LethalLib] Added ToimariPlush to MarchLevel
+[Info   : LethalLib] Added ToimariPlush to RendLevel
+[Info   : LethalLib] Added ToimariPlush to DineLevel
+[Info   : LethalLib] Added ToimariPlush to OffenseLevel
+[Info   : LethalLib] Added ToimariPlush to TitanLevel
+[Info   : LethalLib] Added HamisPlush to ExperimentationLevel
+[Info   : LethalLib] Added HamisPlush to AssuranceLevel
+[Info   : LethalLib] Added HamisPlush to VowLevel
+[Info   : LethalLib] Added HamisPlush to CompanyBuildingLevel
+[Info   : LethalLib] Added HamisPlush to MarchLevel
+[Info   : LethalLib] Added HamisPlush to RendLevel
+[Info   : LethalLib] Added HamisPlush to DineLevel
+[Info   : LethalLib] Added HamisPlush to OffenseLevel
+[Info   : LethalLib] Added HamisPlush to TitanLevel
+[Info   : LethalLib] Added ArsonPlushDirty to ExperimentationLevel
+[Info   : LethalLib] Added ArsonPlushDirty to AssuranceLevel
+[Info   : LethalLib] Added ArsonPlushDirty to VowLevel
+[Info   : LethalLib] Added ArsonPlushDirty to CompanyBuildingLevel
+[Info   : LethalLib] Added ArsonPlushDirty to MarchLevel
+[Info   : LethalLib] Added ArsonPlushDirty to RendLevel
+[Info   : LethalLib] Added ArsonPlushDirty to DineLevel
+[Info   : LethalLib] Added ArsonPlushDirty to OffenseLevel
+[Info   : LethalLib] Added ArsonPlushDirty to TitanLevel
+[Info   : LethalLib] Added Dingus to ExperimentationLevel
+[Info   : LethalLib] Added Dingus to AssuranceLevel
+[Info   : LethalLib] Added Dingus to VowLevel
+[Info   : LethalLib] Added Dingus to CompanyBuildingLevel
+[Info   : LethalLib] Added Dingus to MarchLevel
+[Info   : LethalLib] Added Dingus to RendLevel
+[Info   : LethalLib] Added Dingus to DineLevel
+[Info   : LethalLib] Added Dingus to OffenseLevel
+[Info   : LethalLib] Added Dingus to TitanLevel
+[Info   : LethalLib] Added glizzy to ExperimentationLevel
+[Info   : LethalLib] Added glizzy to AssuranceLevel
+[Info   : LethalLib] Added glizzy to VowLevel
+[Info   : LethalLib] Added glizzy to CompanyBuildingLevel
+[Info   : LethalLib] Added glizzy to MarchLevel
+[Info   : LethalLib] Added glizzy to RendLevel
+[Info   : LethalLib] Added glizzy to DineLevel
+[Info   : LethalLib] Added glizzy to OffenseLevel
+[Info   : LethalLib] Added glizzy to TitanLevel
+[Info   : LethalLib] Added Toygun to ExperimentationLevel
+[Info   : LethalLib] Added Toygun to AssuranceLevel
+[Info   : LethalLib] Added Toygun to VowLevel
+[Info   : LethalLib] Added Toygun to CompanyBuildingLevel
+[Info   : LethalLib] Added Toygun to MarchLevel
+[Info   : LethalLib] Added Toygun to RendLevel
+[Info   : LethalLib] Added Toygun to DineLevel
+[Info   : LethalLib] Added Toygun to OffenseLevel
+[Info   : LethalLib] Added Toygun to TitanLevel
+[Info   : LethalLib] Added GremlinEnergy to ExperimentationLevel
+[Info   : LethalLib] Added GremlinEnergy to AssuranceLevel
+[Info   : LethalLib] Added GremlinEnergy to VowLevel
+[Info   : LethalLib] Added GremlinEnergy to CompanyBuildingLevel
+[Info   : LethalLib] Added GremlinEnergy to MarchLevel
+[Info   : LethalLib] Added GremlinEnergy to RendLevel
+[Info   : LethalLib] Added GremlinEnergy to DineLevel
+[Info   : LethalLib] Added GremlinEnergy to OffenseLevel
+[Info   : LethalLib] Added GremlinEnergy to TitanLevel
+[Info   : LethalLib] Added ToyHammer to ExperimentationLevel
+[Info   : LethalLib] Added ToyHammer to AssuranceLevel
+[Info   : LethalLib] Added ToyHammer to VowLevel
+[Info   : LethalLib] Added ToyHammer to CompanyBuildingLevel
+[Info   : LethalLib] Added ToyHammer to MarchLevel
+[Info   : LethalLib] Added ToyHammer to RendLevel
+[Info   : LethalLib] Added ToyHammer to DineLevel
+[Info   : LethalLib] Added ToyHammer to OffenseLevel
+[Info   : LethalLib] Added ToyHammer to TitanLevel
+[Info   : LethalLib] Added GnarpyPlush to ExperimentationLevel
+[Info   : LethalLib] Added GnarpyPlush to AssuranceLevel
+[Info   : LethalLib] Added GnarpyPlush to VowLevel
+[Info   : LethalLib] Added GnarpyPlush to CompanyBuildingLevel
+[Info   : LethalLib] Added GnarpyPlush to MarchLevel
+[Info   : LethalLib] Added GnarpyPlush to RendLevel
+[Info   : LethalLib] Added GnarpyPlush to DineLevel
+[Info   : LethalLib] Added GnarpyPlush to OffenseLevel
+[Info   : LethalLib] Added GnarpyPlush to TitanLevel
+[Info   : LethalLib] Registered scrap item: Arson Plush
+[Info   : LethalLib] Registered scrap item: Cookie Fumo
+[Info   : LethalLib] Registered scrap item: Toimari Plush
+[Info   : LethalLib] Registered scrap item: Hamis Plush
+[Info   : LethalLib] Registered scrap item: Dirty Arson Plush
+[Info   : LethalLib] Registered scrap item: Maxwell
+[Info   : LethalLib] Registered scrap item: Glizzy
+[Info   : LethalLib] Registered scrap item: Revolver
+[Info   : LethalLib] Registered scrap item: Gremlin Can
+[Info   : LethalLib] Registered scrap item: Toy Hammer
+[Info   : LethalLib] Registered scrap item: Gnarpy Plush
+[Info   : LethalLib] Registered shop item: Rocket Launcher
+[Info   : LethalLib] Registered shop item: Flaregun
+[Info   : LethalLib] Registered shop item: Emergency Flare (ammo)
+[Info   : LethalLib] Registered shop item: Toy Hammer
+[Info   : LethalLib] Registered shop item: Remote Radar
+[Info   : LethalLib] Registered shop item: Utility Belt
+[Info   : LethalLib] Registered shop item: Hacking Tool
+[Info   : LethalLib] Registered shop item: Pinger
+[Info   : LethalLib] Registered item: Dart
+[Info   : LethalLib] Adding 8 items to terminal
+[Info   : LethalLib] Adding Rocket Launcher to terminal
+[Info   : LethalLib] Generating buynode2
+[Info   : LethalLib] Item price: 260, Item index: 13
+[Info   : LethalLib] Generating buynode1
+[Info   : LethalLib] Item price: 260, Item index: 13
+[Info   : LethalLib] Generated keyword: rocket-launcher
+[Info   : LethalLib] Adding Flaregun to terminal
+[Info   : LethalLib] Generating buynode2
+[Info   : LethalLib] Item price: 100, Item index: 14
+[Info   : LethalLib] Generating buynode1
+[Info   : LethalLib] Item price: 100, Item index: 14
+[Info   : LethalLib] Generated keyword: flaregun
+[Info   : LethalLib] Adding Emergency Flare (ammo) to terminal
+[Info   : LethalLib] Generating buynode2
+[Info   : LethalLib] Item price: 20, Item index: 15
+[Info   : LethalLib] Generating buynode1
+[Info   : LethalLib] Item price: 20, Item index: 15
+[Info   : LethalLib] Generated keyword: emergency-flare-(ammo)
+[Info   : LethalLib] Adding Toy Hammer to terminal
+[Info   : LethalLib] Generating buynode2
+[Info   : LethalLib] Item price: 80, Item index: 16
+[Info   : LethalLib] Generating buynode1
+[Info   : LethalLib] Item price: 80, Item index: 16
+[Info   : LethalLib] Generated keyword: toy-hammer
+[Info   : LethalLib] Adding Remote Radar to terminal
+[Info   : LethalLib] Generating buynode2
+[Info   : LethalLib] Item price: 240, Item index: 17
+[Info   : LethalLib] Generating buynode1
+[Info   : LethalLib] Item price: 240, Item index: 17
+[Info   : LethalLib] Generated keyword: remote-radar
+[Info   : LethalLib] Adding Utility Belt to terminal
+[Info   : LethalLib] Generating buynode2
+[Info   : LethalLib] Item price: 290, Item index: 18
+[Info   : LethalLib] Generating buynode1
+[Info   : LethalLib] Item price: 290, Item index: 18
+[Info   : LethalLib] Generated keyword: utility-belt
+[Info   : LethalLib] Adding Hacking Tool to terminal
+[Info   : LethalLib] Generating buynode2
+[Info   : LethalLib] Item price: 190, Item index: 19
+[Info   : LethalLib] Generating buynode1
+[Info   : LethalLib] Item price: 190, Item index: 19
+[Info   : LethalLib] Generated keyword: hacking-tool
+[Info   : LethalLib] Adding Pinger to terminal
+[Info   : LethalLib] Generating buynode2
+[Info   : LethalLib] Item price: 100, Item index: 20
+[Info   : LethalLib] Generating buynode1
+[Info   : LethalLib] Item price: 100, Item index: 20
+[Info   : LethalLib] Generated keyword: pinger
+[Info   :LethalExpansion] Loading scene: SampleSceneRelay
+[Info   :LethalExpansion] Battery Scrap added.
+[Info   :LethalExpansion] Canned Food Scrap added.
+[Info   :LethalExpansion] Matchbox Scrap added.
+[Info   :LethalExpansion] Pills Scrap added.
+[Info   :LethalExpansion] Tape Scrap added.
+[Warning:LethalExpansion] Battery Scrap already added.
+[Warning:LethalExpansion] Canned Food Scrap already added.
+[Warning:LethalExpansion] Matchbox Scrap already added.
+[Warning:LethalExpansion] Pills Scrap already added.
+[Warning:LethalExpansion] Tape Scrap already added.
+[Warning:LethalExpansion] Battery Scrap already added.
+[Warning:LethalExpansion] Canned Food Scrap already added.
+[Warning:LethalExpansion] Matchbox Scrap already added.
+[Warning:LethalExpansion] Pills Scrap already added.
+[Warning:LethalExpansion] Tape Scrap already added.
+[Info   :LethalExpansion] Terminal reset.
+[Info   :LethalExpansion] TestMoon Moon added.
+[Info   :LethalExpansion] Wateridge Moon added.
+[Warning:LethalExpansion] The given key 'Battery' was not present in the dictionary.
+[Warning:LethalExpansion] The given key 'CannedFood' was not present in the dictionary.
+[Warning:LethalExpansion] The given key 'Matchbox' was not present in the dictionary.
+[Warning:LethalExpansion] The given key 'Pills' was not present in the dictionary.
+[Warning:LethalExpansion] The given key 'Tape' was not present in the dictionary.
+[Info   :LethalExpansion] Orion Moon added.
+[Warning:LethalExpansion] The given key '7Ball ' was not present in the dictionary.
+[Info   :LethalExpansion] CastleGrounds Moon added.
+[Info   :LethalExpansion] Battery Scrap patched recursively.
+[Info   :LethalExpansion] Canned Food Scrap patched recursively.
+[Info   :LethalExpansion] Matchbox Scrap patched recursively.
+[Info   :LethalExpansion] Pills Scrap patched recursively.
+[Info   :LethalExpansion] Tape Scrap patched recursively.
+[Info   :LethalExpansion] Battery Scrap patched recursively.
+[Info   :LethalExpansion] Canned Food Scrap patched recursively.
+[Info   :LethalExpansion] Matchbox Scrap patched recursively.
+[Info   :LethalExpansion] Pills Scrap patched recursively.
+[Info   :LethalExpansion] Tape Scrap patched recursively.
+[Info   :LethalExpansion] Battery Scrap patched recursively.
+[Info   :LethalExpansion] Canned Food Scrap patched recursively.
+[Info   :LethalExpansion] Matchbox Scrap patched recursively.
+[Info   :LethalExpansion] Pills Scrap patched recursively.
+[Info   :LethalExpansion] Tape Scrap patched recursively.
+[Info   :LethalExpansion] Moon route price updated.
+[Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   : LethalLib] Diagetic mixer is Diagetic
+[Info   : LethalLib] Found 25 prefabs to fix
+[Info   : LethalLib] Set mixer group for TeleporterTrap in TeleporterTrap to Diagetic:SFX
+[Info   : LethalLib] Set mixer group for Idle in TeleporterTrap to Diagetic:Master
+[Info   : LethalLib] Set mixer group for Boomba in Boomba to Diagetic:Master
+[Info   : LethalLib] Set mixer group for FarAudio in Boomba to Diagetic:SFX
+[Info   : LethalLib] Set mixer group for Idle in Boomba to Diagetic:Master
+[Info   : LethalLib] Set mixer group for PlacementCollider in Dartboard to Diagetic:Master
+[Info   : LethalLib] Set mixer group for PlacementCollider in Sign to Diagetic:Master
+[Info   : LethalLib] Set mixer group for PlacementCollider in Rug2 to Diagetic:Master
+[Info   : LethalLib] Set mixer group for PlacementCollider in Rug to Diagetic:Master
+[Info   : LethalLib] Set mixer group for Dart in Dart to Diagetic:Master
+[Info   : LethalLib] Set mixer group for PingTool in PingTool to Diagetic:Master
+[Info   : LethalLib] Set mixer group for HackingTool in HackingTool to Diagetic:Master
+[Info   : LethalLib] Set mixer group for PouchItem in PouchItem to Diagetic:Master
+[Info   : LethalLib] Set mixer group for HandheldRadar in HandheldRadar to Diagetic:Master
+[Info   : LethalLib] Set mixer group for FlaregunAmmo in FlaregunAmmo to Diagetic:Master
+[Info   : LethalLib] Set mixer group for Flaregun in Flaregun to Diagetic:Master
+[Info   : LethalLib] Set mixer group for RocketLauncher in RocketLauncher to Diagetic:Master
+[Info   : LethalLib] Set mixer group for GnarpyPlush in GnarpyPlush to Diagetic:Master
+[Info   : LethalLib] Set mixer group for ToyHammer in ToyHammer to Diagetic:Master
+[Info   : LethalLib] Set mixer group for GremlinEnergy in GremlinEnergy to Diagetic:Master
+[Info   : LethalLib] Set mixer group for Toygun in Toygun to Diagetic:Master
+[Info   : LethalLib] Set mixer group for glizzy in glizzy to Diagetic:Master
+[Info   : LethalLib] Set mixer group for Dingus in Dingus to Diagetic:Master
+[Info   : LethalLib] Set mixer group for Music in Dingus to Diagetic:Master
+[Info   : LethalLib] Set mixer group for Purr in Dingus to Diagetic:Master
+[Info   : LethalLib] Set mixer group for ArsonPlushDirty in ArsonPlushDirty to Diagetic:Master
+[Info   : LethalLib] Set mixer group for HamisPlush in HamisPlush to Diagetic:Master
+[Info   : LethalLib] Set mixer group for ToimariPlush in ToimariPlush to Diagetic:Master
+[Info   : LethalLib] Set mixer group for CookieFumo in CookieFumo to Diagetic:Master
+[Info   : LethalLib] Set mixer group for ArsonPlush in ArsonPlush to Diagetic:Master
+[Info   :LethalExpansion] [sync]1|0>-1|hostweathers=-1&-1&4&-1&2&5&5&1&5&-1&1&-1&-1[sync]
+[Info   :LethalExpansion] [sync]1|0>-1|hostweathers=-1&-1&4&-1&2&5&5&1&5&-1&1&-1&-1[sync]
+[Info   :Cabinet Item Storage] True
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\an hao.mp3
+[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\COCO.mp3
+[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\GOD.mp3
+[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\hei ren tai guan.mp3
+[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\I Really Want to Stay at Your House.mp3
+[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\never gona give you up.mp3
+[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\OW.mp3
+[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\see you again.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Warning:Lethal Company API] Asking all other players for their mod list..
+[Info   :ReservedItemSlotCore-1.8.9] Finalizing sync with server.
+[Info   :ReservedItemSlotCore-1.8.9] Adding 2 Reserved item slots to the inventory HUD. Previous inventory HUD size: 4
+[Info   :ReservedItemSlotCore-1.8.9] Adding Reserved item slot for item types [Pro-flashlight]. Inventory index: 4
+[Info   :ReservedItemSlotCore-1.8.9] Adding Reserved item slot for item types [Walkie-talkie]. Inventory index: 5
+[Info   :ReservedItemSlotCore-1.8.9] Finished adding 2 Reserved Item slots in the inventory HUD.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ReservedWalkieSlot] ACTIVATE ITEM
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ReservedItemSlotCore-1.8.9] Focusing reserved hotbar slots.
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
+[Info   :ReservedItemSlotCore-1.8.9] Unfocusing reserved hotbar slots.
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 0
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 0
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ReservedItemSlotCore-1.8.9] Focusing reserved hotbar slots.
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
+[Info   :ReservedItemSlotCore-1.8.9] Unfocusing reserved hotbar slots.
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 0
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 0
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ReservedItemSlotCore-1.8.9] Focusing reserved hotbar slots.
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
+[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
+[Info   : MoreItems] Maximum amount of items that can be saved set to 999 just before saving.
+[Info   :ReservedItemSlotCore-1.8.9] Unfocusing reserved hotbar slots.
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
+[Info   :LethalExpansion] Unloading scene: SampleSceneRelay
+[Info   :LethalExpansion] Loading scene: MainMenu

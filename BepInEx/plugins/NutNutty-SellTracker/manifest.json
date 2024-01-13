@@ -1,7 +1,0 @@
-{
-    "name": "SellTracker",
-    "version_number": "1.1.0",
-    "website_url": "",
-    "description": "Displays your quota and the calculated value of the scrap you are currently selling on the screen at the company building.",
-    "dependencies": []
-}
