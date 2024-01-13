@@ -103,7 +103,7 @@
     minor: 0
     patch: 7
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\RugbugRedfern-Skinwalkers\2.0.7\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\RugbugRedfern-Skinwalkers\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedItemSlotCore
   authorName: FlipMods
@@ -409,27 +409,6 @@
     patch: 3
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\EliteMasterEric-Coroner\icon.png
-- manifestVersion: 1
-  name: amnsoft-EmployeeAssignments
-  authorName: amnsoft
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/amnsoft/EmployeeAssignments/
-  displayName: EmployeeAssignments
-  description: Personal assignments for employees, that can be completed for extra cash
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\amnsoft-EmployeeAssignments\icon.png
 - manifestVersion: 1
   name: FlipMods-ObjectVolumeController
   authorName: FlipMods
