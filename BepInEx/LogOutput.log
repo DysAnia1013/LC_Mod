@@ -8,10 +8,7 @@
 [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.1.0]
 [Info   :   BepInEx] 2 patcher plugins loaded
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
 [Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
@@ -26,47 +23,10 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 62 plugins to load
+[Info   :   BepInEx] 35 plugins to load
 [Info   :   BepInEx] Loading [VoiceHUD 1.0.4]
-[Info   :   BepInEx] Loading [AdditionalContentFramework 1.0.2]
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - initializing...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - initialized!
-[Info   :   BepInEx] Loading [Terminal Api 1.5.0]
-[Info   :Terminal Api] Plugin TerminalApi is loaded!
-[Info   :   BepInEx] Loading [Terminal Clock 1.0.5]
-[Info   :Terminal Clock] Plugin Terminal Clock is loaded!
-[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.4.4]
-[Info   :Lethal Company Input Utils] Plugin com.rune580.LethalCompanyInputUtils is loaded!
-[Info   :   BepInEx] Loading [Terminal History 1.0.4]
-[Info   :Terminal History] 
-
-
-Plugin Terminal History is loaded!
-
-
-
-[Info   :   BepInEx] Loading [DimmingFlashlights 1.0.1]
 [Info   :   BepInEx] Loading [BoomboxSyncFix 1.1.0]
 [Info   :BoomboxSyncFix] Plugin BoomboxSyncFix has loaded!
-[Info   :   BepInEx] Loading [Diversity 1.1.10]
-[Info   : Diversity] Loaded asset bundle!
-[Info   : Diversity] Diversity started.
-[Info   :   BepInEx] Loading [LethalLib 0.12.1]
-[Info   : LethalLib] LethalLib loaded!!
-[Info   : LethalLib] Utilities.Init()
-[Info   :   BepInEx] Loading [Chillax Mods 0.5.2]
-[Info   : LethalLib] Loaded asset bundle
-[Info   :Chillax Mods] [CHILLAX] Registering... Boink at rarity 30
-[Info   :Chillax Mods] [CHILLAX] Registering... Cup Noodle at rarity 40
-[Info   :Chillax Mods] [CHILLAX] Registering... Freddy Fast Bear? at rarity 15
-[Info   :Chillax Mods] [CHILLAX] Registering... Nokia 3310 at rarity 30
-[Info   :Chillax Mods] [CHILLAX] Registering... Moai at rarity 20
-[Info   :Chillax Mods] [CHILLAX] Registering... Froggy Chair at rarity 30
-[Info   :Chillax Mods] [CHILLAX] Registering... Eevee Plush at rarity 30
-[Info   :Chillax Mods] [CHILLAX] Registering... Death Note at rarity 20
-[Info   :Chillax Mods] [CHILLAX] Registering... Uno Reverse Card at rarity 20
-[Info   : LethalLib] [CHILLAX] Custom content loaded!
-[Info   :Chillax Mods] CHILLAX Plugin Loaded
 [Info   :   BepInEx] Loading [Lethal Company API 3.3.2]
 [Warning:Lethal Company API] 
 .____    _________           _____  __________ .___  
@@ -77,15 +37,7 @@ Plugin Terminal History is loaded!
         \/       \//_____/        \/                 
                                                      
 [Info   :Lethal Company API] LC_API Starting up..
-[Info   :   BepInEx] Loading [MoreDeathNotes 1.4.0]
-[Info   :MoreDeathNotes] Injecting patch into Landmine.SpawnExplosion...
-[Info   :MoreDeathNotes] Done.
-[Info   :MoreDeathNotes] Plugin MoreDeathNotes (com.anythinggoesgit.moredeathnotes) is loaded!
-[Info   :MoreDeathNotes] Checking for LC_API...
-[Info   :MoreDeathNotes] LCAPI is present! LC_API:3.3.2
 [Info   :   BepInEx] Loading [Coroner 1.5.3]
-[Info   :MoreDeathNotes] Injecting patch into Landmine.SpawnExplosion...
-[Info   :MoreDeathNotes] Done.
 [Info   :   Coroner] Injecting patch into Landmine.SpawnExplosion...
 [Info   :   Coroner] Done.
 [Info   :   Coroner] Plugin Coroner (com.elitemastereric.coroner) is loaded!
@@ -93,7 +45,6 @@ Plugin Terminal History is loaded!
 [Info   :   Coroner] Checking for LC_API...
 [Info   :   Coroner] LCAPI is present! LC_API:3.3.2
 [Info   :   BepInEx] Loading [ShipLobby 1.0.2]
-[Info   :   BepInEx] Loading [ShipLoot 1.0]
 [Info   :   BepInEx] Loading [Custom Boombox Music 1.4.0]
 [Info   :Custom Boombox Music] Loading...
 [Info   :Custom Boombox Music] Created directory at E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music
@@ -105,51 +56,71 @@ Plugin Terminal History is loaded!
 [Info   :   BepInEx] Loading [ItemQuickSwitchMod 1.1.0]
 [Info   :ItemQuickSwitchMod] ItemQuickSwitchMod is creating binds!
 [Info   :ItemQuickSwitchMod] Plugin ItemQuickSwitchMod is loaded!
-[Info   :   BepInEx] Loading [EmployeeAssignments 1.0.9]
-[Info   :   BepInEx] Loading [ReservedItemSlotCore 1.8.9]
-[Info   :ReservedItemSlotCore-1.8.9] BindingConfigs
-[Info   :ReservedItemSlotCore-1.8.9] Cleaning old config entries
-[Info   :ReservedItemSlotCore-1.8.9] ReservedItemSlotCore loaded
-[Info   :   BepInEx] Loading [LethalThings 0.9.4]
-[Info   :LethalThings] LethalLib version is 0.12.1, which is compatible with LethalThings 0.9.0+
-[Info   :LethalThings] [Optional dependency] LethalCompanyInputUtils version is 0.4.4, which is compatible with LethalThings 0.8.0+
-[Info   :LethalThings] [Compatibility] ReservedItemSlotCore version is 1.8.9, which is compatible with LethalThings 0.8.0+
-[Info   : LethalLib] [LethalLib] LethalThings is registering 26 content items!
-[Info   :LethalThings] LethalThings loaded successfully!!!
 [Info   :   BepInEx] Loading [BetterStamina 1.3.2]
 [Info   :BetterStamina] BindingConfigs
 [Info   :BetterStamina] BetterStamina loaded
 [Info   :   BepInEx] Loading [ObjectVolumeController 1.0.4]
 [Info   :ObjectVolumeController] BindingConfigs
 [Info   :ObjectVolumeController] ObjectVolumeController loaded
+[Info   :   BepInEx] Loading [ReservedItemSlotCore 1.8.9]
+[Info   :ReservedItemSlotCore-1.8.9] BindingConfigs
+[Info   :ReservedItemSlotCore-1.8.9] Cleaning old config entries
+[Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly ReservedItemSlotCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+System.IO.FileNotFoundException: Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+[Info   :ReservedItemSlotCore-1.8.9] ReservedItemSlotCore loaded
 [Info   :   BepInEx] Loading [ReservedFlashlightSlot 1.5.9]
 [Info   :ReservedFlashlightSlot] BindingConfigs
 [Info   :ReservedFlashlightSlot] Cleaning old config entries
+[Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly ReservedFlashlightSlot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+System.IO.FileNotFoundException: Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
 [Info   :ReservedFlashlightSlot] ReservedFlashlightSlot loaded
 [Info   :   BepInEx] Loading [ReservedWalkieSlot 1.5.5]
 [Info   :ReservedWalkieSlot] BindingConfigs
 [Info   :ReservedWalkieSlot] Cleaning old config entries
+[Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly ReservedWalkieSlot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+System.IO.FileNotFoundException: Could not load file or assembly 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'LethalCompanyInputUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
 [Info   :ReservedWalkieSlot] ReservedWalkieSlot loaded
 [Info   :   BepInEx] Loading [WirelessCharging 1.0.0]
 [Info   :floof.WirelessCharging] WirelessCharging active kiwicute
-[Info   :   BepInEx] Loading [Fair AI 1.0.0]
-[Info   :GoldenKitten.FairAI] Fair AI initiated!
-[Info   :MoreDeathNotes] Injecting patch into Landmine.SpawnExplosion...
-[Info   :MoreDeathNotes] Done.
-[Info   :   Coroner] Injecting patch into Landmine.SpawnExplosion...
-[Info   :   Coroner] Done.
+[Info   :   BepInEx] Loading [Dynamic Deadline 1.2.2]
+[Info   :Dynamic Deadline] No more short deadlines for excessive quotas.
 [Info   :   BepInEx] Loading [Suit Saver 1.1.2]
 [Info   :   BepInEx] Loading [HideModList 1.0.0]
 [Info   :HideModList] Plugin HideModList is loaded!
 [Info   :   BepInEx] Loading [HoldScanButton 1.1.1]
 [Info   :HoldScanButton] Plugin HoldScanButton has loaded!
-[Info   :   BepInEx] Loading [TZP Reworked: Healing 1.1.0.0]
-[Info   :Hotoni.TZPHEAL] TZP HEAL loaded
-[Info   :   BepInEx] Loading [LC_Masked_Fix 0.0.2]
-[Info   :kuba6000.LC_MimicFixMod] Mimic Fix Awaken!
-[Info   :kuba6000.LC_MimicFixMod] V47/48/49 - Fixes red screen overlay / vomit screen after the kill is inturrupted
-[Info   :kuba6000.LC_MimicFixMod] V45 - Fixes stuck screen after interrupting the kill animation
-[Info   :kuba6000.LC_MimicFixMod] Patching MaskedPlayerEnemy
+[Info   :   BepInEx] Loading [LethalPresents 1.0.4]
+[Info   :LethalPresents] Plugin LethalPresents is loaded!
+[Info   :LethalPresents] Following enemies wont be spawned from the gift:
+[Info   :LethalPresents] 
+[Info   :   BepInEx] Loading [LocalizationCore_BepinEx6 1.0.0]
+[Info   :LocalizationCore_BepinEx6] Initialize Start
+[Info   :LocalizationCore_BepinEx6] Load Resource
+[Info   :LocalizationCore_BepinEx6] Load Online Text
+[Info   :LocalizationCore_BepinEx6] None Online Text , Use Local Online Text
+[Info   :LocalizationCore_BepinEx6] Success Load 2114 Local Online Text
+[Info   :LocalizationCore_BepinEx6] Load Online Feature Text
+[Info   :LocalizationCore_BepinEx6] None Online Feature Text , Use Local Online Feature Text
+[Info   :LocalizationCore_BepinEx6] Success Load 120 Local Online Feature Text
+[Info   :LocalizationCore_BepinEx6] Load Online Map
+[Info   :LocalizationCore_BepinEx6] Load Online Map Fail, Use Local Map.
+[Info   :LocalizationCore_BepinEx6] Load Core
+[Info   :LocalizationCore_BepinEx6] Initialize Success
 [Info   :   BepInEx] Loading [MoreCompany 1.7.4]
 [Info   :MoreCompany] Loading MoreCompany...
 [Info   :MoreCompany] Checking: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins/MoreCompanyCosmetics
@@ -183,175 +154,7 @@ Plugin Terminal History is loaded!
 [Info   :MoreCompany] Loaded cosmetic: wackycosmetics.tbhcreature from bundle
 [Info   :MoreCompany] Loaded cosmetic: wackycosmetics.toweringpillarofhats from bundle
 [Info   :MoreCompany] Loaded cosmetic: wackycosmetics.valkyriehelm from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.AbbyEars from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.AbbyTail from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.Absa from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.AbsaTail from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.AmongUs from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.BalloonBoyMask from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.Bana from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.BonnieMask from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.BreadbugHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.BucketHelm from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.BulborbHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.CalliHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.CalliopeMoriScythe from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.ChicaMask from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.CowboyHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.DreamBreaker from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.EmberCrown from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.EmberSlime from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.EmberSword from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.FoxyMask from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.FreddyMask from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.IHeartRobloxHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.KickMeNote from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.MaleniaHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.MangleMask from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.MioCoreCrystal from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.MioHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.Monado from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.NerdEmoji from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.NiaCoattail from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.NiaCoreCrystal from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.NiaHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.NiaScimitar from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.Pot from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.RanniHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.RikuHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.StrangeMask from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.SybilHat from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.SybilTail from bundle
-[Info   :MoreCompany] Loaded cosmetic: NiaNation.Turters from bundle
 [Info   :MoreCompany] Loaded MoreCompany FULLY
-[Info   :   BepInEx] Loading [LethalExpansion 1.3.19]
-[Info   :LethalExpansion] PluginName: LethalExpansion, VersionString: 1.3.19 is loading...
-[Info   :LethalExpansion] Getting other plugins list
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: VoiceHUD - Version: 1.0.4 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: AdditionalContentFramework - Version: 1.0.2 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Terminal Api - Version: 1.5.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Terminal Clock - Version: 1.0.5 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Lethal Company Input Utils - Version: 0.4.4 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Terminal History - Version: 1.0.4 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: DimmingFlashlights - Version: 1.0.1 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: BoomboxSyncFix - Version: 1.1.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Diversity - Version: 1.1.10 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: LethalLib - Version: 0.12.1 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Chillax Mods - Version: 0.5.2 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Lethal Company API - Version: 3.3.2 - Compatibility: good
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: MoreDeathNotes - Version: 1.4.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Coroner - Version: 1.5.3 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ShipLobby - Version: 1.0.2 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ShipLoot - Version: 1.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Custom Boombox Music - Version: 1.4.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: CrossHair - Version: 1.0.5 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ItemQuickSwitchMod - Version: 1.1.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: EmployeeAssignments - Version: 1.0.9 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ReservedItemSlotCore - Version: 1.8.9 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: LethalThings - Version: 0.9.4 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: BetterStamina - Version: 1.3.2 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ObjectVolumeController - Version: 1.0.4 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ReservedFlashlightSlot - Version: 1.5.9 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ReservedWalkieSlot - Version: 1.5.5 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: WirelessCharging - Version: 1.0.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Fair AI - Version: 1.0.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Suit Saver - Version: 1.1.2 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: HideModList - Version: 1.0.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: HoldScanButton - Version: 1.1.1 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: TZP Reworked: Healing - Version: 1.1.0.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: LC_Masked_Fix - Version: 0.0.2 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Warning:LethalExpansion] Plugin: MoreCompany - Version: 1.7.4 - Compatibility: medium
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion] Plugins folder found: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins
-[Info   :LethalExpansion] Mod path is: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\HolographicWings-LethalExpansion
-[Info   :LethalExpansion] Module found: OldSeaPort v1.3.15.0 Loaded in 2253ms
-[Info   :LethalExpansion] Module found: TemplateMod v1.3.17.0 Loaded in 138ms
-[Info   :LethalExpansion] Module found: Orion v1.1.3.0 Loaded in 4639ms
-[Info   :LethalExpansion] Module found: CastleGrounds v1.2.11.0 Loaded in 1485ms
-[Info   :LethalExpansion] Water support applied to the HDRenderPipelineAsset.
-[Info   :LethalExpansion] PluginName: LethalExpansion, VersionString: 1.3.19 is loaded.
-[Info   :   BepInEx] Loading [LethalPresents 1.0.4]
-[Info   :LethalPresents] Plugin LethalPresents is loaded!
-[Info   :LethalPresents] Following enemies wont be spawned from the gift:
-[Info   :LethalPresents] 
-[Info   :   BepInEx] Loading [LocalizationCore_BepinEx6 1.0.0]
-[Info   :LocalizationCore_BepinEx6] Initialize Start
-[Info   :LocalizationCore_BepinEx6] Load Resource
-[Info   :LocalizationCore_BepinEx6] Load Online Text
-[Info   :LocalizationCore_BepinEx6] Success Load 2114 Local Online Text
-[Info   :LocalizationCore_BepinEx6] Load Online Feature Text
-[Info   :LocalizationCore_BepinEx6] Success Load 120 Local Online Feature Text
-[Info   :LocalizationCore_BepinEx6] Load Online Map
-[Info   :LocalizationCore_BepinEx6] Load Online Map Fail, Use Local Map.
-[Info   :LocalizationCore_BepinEx6] Load Core
-[Info   :LocalizationCore_BepinEx6] Initialize Success
 [Info   :   BepInEx] Loading [MaskedEnemyRework 2.4.0]
 [Info   :MaskedEnemyRework] Plugin MaskedEnemyRework is loaded! Woohoo!
 [Info   :   BepInEx] Loading [Elads HUD 1.1.0]
@@ -364,35 +167,10 @@ Plugin Terminal History is loaded!
 [Info   :RuntimeNetcodeRPCValidator] Successfully registered first patch for type PlayerControllerB.Awake | Triggered by MoreEmotes
 [Info   :   BepInEx] Loading [MoreItems 1.0.2]
 [Info   : MoreItems] Plugin MoreItems is loaded!
-[Info   :   BepInEx] Loading [Backrooms 0.1.3]
-[Info   : Backrooms] Plugin Backrooms is loaded!
-[Info   :   BepInEx] Loading [NuclearLib 1.0.4]
-[Info   :   BepInEx] Loading [Symbiosis 1.0.5]
-[Info   : Symbiosis] Patching...
-[Info   : Symbiosis] Finished patching!
-[Info   : Symbiosis] Registering ModBehaviours...
-[Info   :NuclearLib] Registered ModBehaviour [Symbiosis.ModBehaviours.Mod_HoarderBug]
-[Info   :NuclearLib] Registered ModBehaviour [Symbiosis.ModBehaviours.Mod_ExtensionLadder]
-[Info   :NuclearLib] Registered ModBehaviour [Symbiosis.ModBehaviours.Mod_StunGrenade]
-[Info   :NuclearLib] Registered ModBehaviour [Symbiosis.ModBehaviours.Mod_MaskedPlayerEnemy]
-[Info   : Symbiosis] Finished registering ModBehaviours!
-[Info   : Symbiosis] Loading Config...
-[Info   : Symbiosis] Finished Loading Config!
-[Info   : Symbiosis] Loading Assets!
-[Info   : Symbiosis] Finished Loading Assets!
 [Info   :   BepInEx] Loading [BepInUtils 1.2.1]
 [Info   :BepInUtils] System loaded.
 [Info   :   BepInEx] Loading [Lethal Company API 0.0.5]
 [Info   :   BepInEx] Loading [Cabinet Item Storage 0.0.4]
-[Info   :   BepInEx] Loading [Sell Tracker 1.1.0]
-[Info   :Sell Tracker] Sell Tracker plugin loaded!
-[Info   :   BepInEx] Loading [MirrorDecor 1.2.3]
-[Info   :MirrorDecor] Plugin MirrorDecor is loaded!
-[Info   :   BepInEx] Loading [QuickRestart 1.0.0]
-[Info   :QuickRestart] QuickRestart loaded!
-[Info   :   BepInEx] Loading [Helmet_Cameras 2.1.5]
-[Info   :Helmet_Cameras] Plugin Helmet_Cameras is loaded with version 2.1.5!
-[Info   :Helmet_Cameras] --------Helmet camera patch done.---------
 [Info   :   BepInEx] Loading [Skinwalker Mod 2.0.7]
 [Info   :RugbugRedfern.SkinwalkerMod] SKINWALKER MOD STARTING UP 2.0.7
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BaboonHawk VALUE LOADED FROM CONFIG: [True]
@@ -414,8 +192,6 @@ Plugin Terminal History is loaded!
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_OtherEnemies VALUE LOADED FROM CONFIG: [True]
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceLineFrequency VALUE LOADED FROM CONFIG: [2]
 [Info   :RugbugRedfern.SkinwalkerMod] Skinwalker Mod Object Initialized
-[Info   :   BepInEx] Loading [Paint Color Switch Mod 1.0.0]
-[Info   :Paint Color Switch Mod] Plugin Silvision.PaintColorSwitchMod is loaded!
 [Info   :   BepInEx] Loading [LC Always Hear Active Walkies 1.4.4]
 [Info   :suskitech.LCAlwaysHearActiveWalkie] \ /
 [Info   :suskitech.LCAlwaysHearActiveWalkie] /|\
@@ -427,311 +203,17 @@ Plugin Terminal History is loaded!
 [Info   :suskitech.LCAlwaysHearActiveWalkie] AudibleDistance: 12
 [Info   :suskitech.LCAlwaysHearActiveWalkie] WalkieRecordingRange: 20
 [Info   :suskitech.LCAlwaysHearActiveWalkie] PlayerToPlayerSpatialHearingRange: 20
-[Info   :   BepInEx] Loading [Enemy FIX 1.0.0.0]
-[Info   : Enemy FIX]  Successfully awakened!
-[Info   :   BepInEx] Loading [BetterSprayPaint 1.1.0]
-[Info   :BetterSprayPaint] Loading taffyko.BetterSprayPaint
 [Info   :   BepInEx] Loading [CoilHeadStare 1.0.3]
 [Info   :TDP.CoilHeadStare] CoilHeadStare 1.0.3 loaded.
 [Info   :   BepInEx] Loading [More Suits 1.4.1]
 [Info   :More Suits] Plugin More Suits is loaded!
 [Info   :   BepInEx] Loading [Too Many Suits 1.0.5]
 [Info   :Too Many Suits] TooManySuits Mod Loaded.
-[Info   :   BepInEx] Loading [WeatherMultipliers 1.1.0]
-[Info   :WeatherMultipliers] Plugin WeatherMultipliers is loaded!
 [Info   :   BepInEx] Loading [Mimics 2.3.2]
-[Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly Mimics, Version=2.3.2.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
-Could not load list of method overrides due to Method not found: bool .IHittable.Hit(int,UnityEngine.Vector3,GameNetcodeStuff.PlayerControllerB,bool)
-  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at System.Reflection.Assembly.GetTypes () [0x00000] in <787acc3c9a4c471ba7d971300105af24>:IL_0000 
-  at HarmonyLib.AccessTools.GetTypesFromAssembly (System.Reflection.Assembly assembly) [0x0000d] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_000D 
-System.TypeLoadException: Could not load list of method overrides due to Method not found: bool .IHittable.Hit(int,UnityEngine.Vector3,GameNetcodeStuff.PlayerControllerB,bool)
 [Info   :    Mimics] Plugin Mimics is loaded!
 [Message:   BepInEx] Chainloader startup complete
 [Info   :Lethal Company API] LC_API Started!
-[Info   :EmployeeAssignments] Plugin EmployeeAssignments is loaded!
 [Info   :ReservedFlashlightSlot] Initializing hotkeys.
 [Info   :ReservedWalkieSlot] Initializing hotkeys.
-[Info   :LethalExpansion] Loading scene: InitSceneLaunchOptions
-[Info   :LethalExpansion] Unloading scene: InitSceneLaunchOptions
-[Info   :LethalExpansion] Loading scene: InitScene
-[Info   :LethalExpansion] itemshipanimcontainer Prefab registered.
-[Info   :LethalExpansion] Battery Scrap registered.
-[Info   :LethalExpansion] Canned Food Scrap registered.
-[Info   :LethalExpansion] Matchbox Scrap registered.
-[Info   :LethalExpansion] Pills Scrap registered.
-[Info   :LethalExpansion] Tape Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Battery Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Canned Food Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Matchbox Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Pills Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Tape Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Battery Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Canned Food Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Matchbox Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Pills Scrap registered.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal PhysicsProp component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Warning:LethalExpansion] Removed illegal ScanNodeProperties component.
-[Info   :LethalExpansion] Tape Scrap registered.
-[Info   :LethalExpansion] Unloading scene: InitScene
-[Info   :LethalExpansion] Loading scene: MainMenu
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :LethalExpansion] LethalExpansion Host Started.
-[Message:Lethal Company API] server pre-setup success
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :LethalExpansion] Unloading scene: MainMenu
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   : LethalLib] Adding 5 unlockables to unlockables list
-[Info   :LethalThings] Spawning config manager
-[Info   :Custom Boombox Music] Preparing to load AudioClips...
-[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\an hao.mp3!
-[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\COCO.mp3!
-[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\GOD.mp3!
-[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\hei ren tai guan.mp3!
-[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\I Really Want to Stay at Your House.mp3!
-[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\never gona give you up.mp3!
-[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\OW.mp3!
-[Info   :Custom Boombox Music] Loading E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\see you again.mp3!
-[Info   : LethalLib] Added Boomba to ExperimentationLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to AssuranceLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to VowLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to CompanyBuildingLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to MarchLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to RendLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to DineLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to OffenseLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to TitanLevel with SpawnType [Default]
-[Info   : LethalLib] Added TeleporterTrap to ExperimentationLevel
-[Info   : LethalLib] Added TeleporterTrap to AssuranceLevel
-[Info   : LethalLib] Added TeleporterTrap to VowLevel
-[Info   : LethalLib] Added TeleporterTrap to CompanyBuildingLevel
-[Info   : LethalLib] Added TeleporterTrap to MarchLevel
-[Info   : LethalLib] Added TeleporterTrap to RendLevel
-[Info   : LethalLib] Added TeleporterTrap to DineLevel
-[Info   : LethalLib] Added TeleporterTrap to OffenseLevel
-[Info   : LethalLib] Added TeleporterTrap to TitanLevel
-[Info   :LethalExpansion] Loading scene: SampleSceneRelay
-[Info   :LethalExpansion] Battery Scrap added.
-[Info   :LethalExpansion] Canned Food Scrap added.
-[Info   :LethalExpansion] Matchbox Scrap added.
-[Info   :LethalExpansion] Pills Scrap added.
-[Info   :LethalExpansion] Tape Scrap added.
-[Warning:LethalExpansion] Battery Scrap already added.
-[Warning:LethalExpansion] Canned Food Scrap already added.
-[Warning:LethalExpansion] Matchbox Scrap already added.
-[Warning:LethalExpansion] Pills Scrap already added.
-[Warning:LethalExpansion] Tape Scrap already added.
-[Warning:LethalExpansion] Battery Scrap already added.
-[Warning:LethalExpansion] Canned Food Scrap already added.
-[Warning:LethalExpansion] Matchbox Scrap already added.
-[Warning:LethalExpansion] Pills Scrap already added.
-[Warning:LethalExpansion] Tape Scrap already added.
-[Info   :LethalExpansion] Terminal reset.
-[Info   :LethalExpansion] TestMoon Moon added.
-[Info   :LethalExpansion] Wateridge Moon added.
-[Warning:LethalExpansion] The given key 'Battery' was not present in the dictionary.
-[Warning:LethalExpansion] The given key 'CannedFood' was not present in the dictionary.
-[Warning:LethalExpansion] The given key 'Matchbox' was not present in the dictionary.
-[Warning:LethalExpansion] The given key 'Pills' was not present in the dictionary.
-[Warning:LethalExpansion] The given key 'Tape' was not present in the dictionary.
-[Info   :LethalExpansion] Orion Moon added.
-[Warning:LethalExpansion] The given key '7Ball ' was not present in the dictionary.
-[Info   :LethalExpansion] CastleGrounds Moon added.
-[Info   :LethalExpansion] Battery Scrap patched recursively.
-[Info   :LethalExpansion] Canned Food Scrap patched recursively.
-[Info   :LethalExpansion] Matchbox Scrap patched recursively.
-[Info   :LethalExpansion] Pills Scrap patched recursively.
-[Info   :LethalExpansion] Tape Scrap patched recursively.
-[Info   :LethalExpansion] Battery Scrap patched recursively.
-[Info   :LethalExpansion] Canned Food Scrap patched recursively.
-[Info   :LethalExpansion] Matchbox Scrap patched recursively.
-[Info   :LethalExpansion] Pills Scrap patched recursively.
-[Info   :LethalExpansion] Tape Scrap patched recursively.
-[Info   :LethalExpansion] Battery Scrap patched recursively.
-[Info   :LethalExpansion] Canned Food Scrap patched recursively.
-[Info   :LethalExpansion] Matchbox Scrap patched recursively.
-[Info   :LethalExpansion] Pills Scrap patched recursively.
-[Info   :LethalExpansion] Tape Scrap patched recursively.
-[Info   :LethalExpansion] Moon route price updated.
-[Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
-[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   : Diversity] Added PlayerRevamp to: Player (1)
-[Info   : Diversity] Added PlayerRevamp to: Player (3)
-[Info   : Diversity] Added PlayerRevamp to: Player (2)
-[Info   : Diversity] Added PlayerRevamp to: Player
-[Info   : LethalLib] Diagetic mixer is Diagetic
-[Info   : LethalLib] Found 25 prefabs to fix
-[Info   : LethalLib] Set mixer group for TeleporterTrap in TeleporterTrap to Diagetic:SFX
-[Info   : LethalLib] Set mixer group for Idle in TeleporterTrap to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Boomba in Boomba to Diagetic:Master
-[Info   : LethalLib] Set mixer group for FarAudio in Boomba to Diagetic:SFX
-[Info   : LethalLib] Set mixer group for Idle in Boomba to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Dartboard to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Sign to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Rug2 to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Rug to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Dart in Dart to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PingTool in PingTool to Diagetic:Master
-[Info   : LethalLib] Set mixer group for HackingTool in HackingTool to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PouchItem in PouchItem to Diagetic:Master
-[Info   : LethalLib] Set mixer group for HandheldRadar in HandheldRadar to Diagetic:Master
-[Info   : LethalLib] Set mixer group for FlaregunAmmo in FlaregunAmmo to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Flaregun in Flaregun to Diagetic:Master
-[Info   : LethalLib] Set mixer group for RocketLauncher in RocketLauncher to Diagetic:Master
-[Info   : LethalLib] Set mixer group for GnarpyPlush in GnarpyPlush to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ToyHammer in ToyHammer to Diagetic:Master
-[Info   : LethalLib] Set mixer group for GremlinEnergy in GremlinEnergy to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Toygun in Toygun to Diagetic:Master
-[Info   : LethalLib] Set mixer group for glizzy in glizzy to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Dingus in Dingus to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Music in Dingus to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Purr in Dingus to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ArsonPlushDirty in ArsonPlushDirty to Diagetic:Master
-[Info   : LethalLib] Set mixer group for HamisPlush in HamisPlush to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ToimariPlush in ToimariPlush to Diagetic:Master
-[Info   : LethalLib] Set mixer group for CookieFumo in CookieFumo to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ArsonPlush in ArsonPlush to Diagetic:Master
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - finding suit prefab...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - found suit prefab!
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - loading content modules...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - attempting to load suits from path:E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - attempting to parse json file: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits\suit-defs.json
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Red Suit
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Yellow Suit
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Green Suit
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Blue Suit
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Purple Suit
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Pink Suit
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: White Suit
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Black Suit
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - finished loading suits from path:E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - loaded content modules! (count=1)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applying content modules...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applying additional content module from: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=0_Red_Suit, name=Red Suit}...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=0_Red_Suit, name=Red Suit}! (new unlockable count is 25)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=1_Yellow_Suit, name=Yellow Suit}...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=1_Yellow_Suit, name=Yellow Suit}! (new unlockable count is 26)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=2_Green_Suit, name=Green Suit}...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=2_Green_Suit, name=Green Suit}! (new unlockable count is 27)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=3_Blue_Suit, name=Blue Suit}...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=3_Blue_Suit, name=Blue Suit}! (new unlockable count is 28)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=4_Purple_Suit, name=Purple Suit}...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=4_Purple_Suit, name=Purple Suit}! (new unlockable count is 29)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=5_Pink_Suit, name=Pink Suit}...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=5_Pink_Suit, name=Pink Suit}! (new unlockable count is 30)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=6_White_Suit, name=White Suit}...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=6_White_Suit, name=White Suit}! (new unlockable count is 31)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=7_Black_Suit, name=Black Suit}...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=7_Black_Suit, name=Black Suit}! (new unlockable count is 32)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applyed additional content module from: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits!
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applied content modules!
-[Info   : Diversity] Added StartOfRoundRevamp to: PlayersManager / HUDManager
-[Info   :LethalExpansion] [sync]1|0>-1|hostweathers=-1&-1&-1&-1&4&2&4&4&-1&2&5&5&5[sync]
-[Info   :LethalExpansion] [sync]1|0>-1|hostweathers=-1&-1&-1&-1&4&2&4&4&-1&2&5&5&5[sync]
-[Info   :Cabinet Item Storage] True
-[Info   : Diversity] Added HUDManagerRevamp to: PlayersManager / HUDManager
-[Info   : Diversity] Added PlayerRevamp to: Player (4)
-[Info   : Diversity] Added PlayerRevamp to: Player (5)
-[Info   : Diversity] Added PlayerRevamp to: Player (6)
-[Info   : Diversity] Added PlayerRevamp to: Player (7)
-[Info   : Diversity] Added PlayerRevamp to: Player (8)
-[Info   : Diversity] Added PlayerRevamp to: Player (9)
-[Info   : Diversity] Added Volume to: PlayersManager / HUDManager
-[Info   : Diversity] Setting full darkness to local player: DysAnia
-[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\an hao.mp3
-[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\COCO.mp3
-[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\GOD.mp3
-[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\hei ren tai guan.mp3
-[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\I Really Want to Stay at Your House.mp3
-[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\never gona give you up.mp3
-[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\OW.mp3
-[Info   :Custom Boombox Music] Loaded E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\Custom Songs\Boombox Music\see you again.mp3
-[Info   :ReservedWalkieSlot] ACTIVATE ITEM
-[Warning:Lethal Company API] Asking all other players for their mod list..
-[Info   :ReservedItemSlotCore-1.8.9] Finalizing sync with server.
-[Info   :ReservedItemSlotCore-1.8.9] Adding 2 Reserved item slots to the inventory HUD. Previous inventory HUD size: 4
-[Info   :ReservedItemSlotCore-1.8.9] Adding Reserved item slot for item types [Pro-flashlight]. Inventory index: 4
-[Info   :ReservedItemSlotCore-1.8.9] Adding Reserved item slot for item types [Walkie-talkie]. Inventory index: 5
-[Info   :ReservedItemSlotCore-1.8.9] Finished adding 2 Reserved Item slots in the inventory HUD.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :Cabinet Item Storage] [CabinetManager] Received network message ServerRequestSync
-[Warning:Lethal Company API] Asking all other players for their mod list..
-[Info   : Diversity] Interactor interacted with: ControlDesk
-[Info   :RugbugRedfern.SkinwalkerMod] Got audio file paths (1)
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_0_133496271038392299.wav
-[Info   :LethalExpansion] Game started.
-[Info   :LethalExpansion] Loading scene: CompanyBuilding
-[Info   :BoomboxSyncFix] Round has loaded for all -- forcing everyone to reinitialize musicRandomizer.
-[Info   :RugbugRedfern.SkinwalkerMod] Got audio file paths (5)
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_2_133496271085974731.wav
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_4_133496271128205618.wav
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_3_133496271108306666.wav
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_5_133496271132762749.wav
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_1_133496271073856305.wav
-[Info   :RugbugRedfern.SkinwalkerMod] Got audio file paths (4)
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_8_133496271184614154.wav
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_6_133496271151128141.wav
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_7_133496271171437740.wav
-[Info   :ReservedItemSlotCore-1.8.9] Focusing reserved hotbar slots.
-[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
-[Info   :ReservedItemSlotCore-1.8.9] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
-[Info   :RugbugRedfern.SkinwalkerMod] Got audio file paths (5)
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_10_133496271244721334.wav
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_12_133496271295514197.wav
-[Info   :RugbugRedfern.SkinwalkerMod] Loaded clip from path D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics\Output_930cb3d6-0853-4e9e-ae82-26be1ab46dee_11_133496271252594743.wa

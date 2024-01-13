@@ -150,27 +150,6 @@
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
 - manifestVersion: 1
-  name: tinyhoot-ShipLoot
-  authorName: tinyhoot
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLoot/
-  displayName: ShipLoot
-  description: Reliably shows the total value of all scrap in your ship.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\tinyhoot-ShipLoot\icon.png
-- manifestVersion: 1
   name: x753-Mimics
   authorName: x753
   websiteUrl: https://thunderstore.io/c/lethal-company/p/x753/Mimics/
@@ -215,31 +194,6 @@
     patch: 5
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
-- manifestVersion: 1
-  name: AlexCodesGames-AdditionalSuits
-  authorName: AlexCodesGames
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/AlexCodesGames/AdditionalSuits/
-  displayName: AdditionalSuits
-  description: Adds 8 more standard suits to your initial closet at the start of
-    the game! Great for organizing larger crews! Follow my socials in the desc
-    to stay in the loop for updates and new mods for Lethal Company! (source
-    code is also in desc <3)
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - AlexCodesGames-AdditionalContentFramework-1.0.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalSuits\icon.png
 - manifestVersion: 1
   name: Suskitech-AlwaysHearActiveWalkies
   authorName: Suskitech
@@ -303,27 +257,6 @@
     patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\vasanex-ItemQuickSwitch\icon.png
-- manifestVersion: 1
-  name: Blorb-WeatherMultipliers
-  authorName: Blorb
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Blorb/WeatherMultipliers/
-  displayName: WeatherMultipliers
-  description: Moons with active weather will contain scrap with higher value
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Blorb-WeatherMultipliers\icon.png
 - manifestVersion: 1
   name: Verity-TooManySuits
   authorName: Verity
@@ -454,27 +387,6 @@
     patch: 1
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\HomelessGinger-MaskedEnemyOverhaul\icon.png
-- manifestVersion: 1
-  name: Crab_imitation-Space_Pajamas_Suit
-  authorName: Crab_imitation
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Crab_imitation/Space_Pajamas_Suit/
-  displayName: Space_Pajamas_Suit
-  description: Adds 3 different glow in the dark space pajamas suit.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - x753-More_Suits-1.3.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 6
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Crab_imitation-Space_Pajamas_Suit\icon.png
 - manifestVersion: 1
   name: Stoners-SpiderManSuitV2
   authorName: Stoners
@@ -737,50 +649,6 @@
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Evaisa-LethalThings\icon.png
 - manifestVersion: 1
-  name: AllToasters-QuickRestart
-  authorName: AllToasters
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/AllToasters/QuickRestart/
-  displayName: QuickRestart
-  description: Allows you to easily restart your game via a command.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AllToasters-QuickRestart\icon.png
-- manifestVersion: 1
-  name: quackandcheese-MirrorDecor
-  authorName: quackandcheese
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/quackandcheese/MirrorDecor/
-  displayName: MirrorDecor
-  description: Adds a working mirror decoration that you can buy for your ship!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Evaisa-HookGenPatcher-0.0.5
-    - Evaisa-LethalLib-0.4.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 3
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\quackandcheese-MirrorDecor\icon.png
-- manifestVersion: 1
   name: Sv_Matt-HideModList
   authorName: Sv_Matt
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Sv_Matt/HideModList/
@@ -800,49 +668,6 @@
     patch: 1
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Sv_Matt-HideModList\icon.png
-- manifestVersion: 1
-  name: taffyko-BetterSprayPaint
-  authorName: taffyko
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/taffyko/BetterSprayPaint/
-  displayName: BetterSprayPaint
-  description: Infinite spray paint, significantly more responsive and reliable
-    painting, longer range, quieter sounds, and an erase feature
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\taffyko-BetterSprayPaint\icon.png
-- manifestVersion: 1
-  name: NutNutty-SellTracker
-  authorName: NutNutty
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/NutNutty/SellTracker/
-  displayName: SellTracker
-  description: Displays your quota and the calculated value of the scrap you are
-    currently selling on the screen at the company building.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\NutNutty-SellTracker\icon.png
 - manifestVersion: 1
   name: Hexnet111-SuitSaver
   authorName: Hexnet111
@@ -864,27 +689,6 @@
     patch: 4
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Hexnet111-SuitSaver\icon.png
-- manifestVersion: 1
-  name: Rune580-LethalCompany_InputUtils
-  authorName: Rune580
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/
-  displayName: LethalCompany_InputUtils
-  description: Utilities for creating InputActions and having them be accessible in game
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 4
-    patch: 4
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Rune580-LethalCompany_InputUtils\icon.png
 - manifestVersion: 1
   name: FlipMods-BetterStamina
   authorName: FlipMods
@@ -952,27 +756,6 @@
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FutureSavior-Hold_Scan_Button\icon.png
 - manifestVersion: 1
-  name: blink9803-DimmingFlashlights
-  authorName: blink9803
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/blink9803/DimmingFlashlights/
-  displayName: DimmingFlashlights
-  description: flashlights get dimmer as the battery gets low
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\blink9803-DimmingFlashlights\icon.png
-- manifestVersion: 1
   name: kuba6000-LC_Masked_Fix
   authorName: kuba6000
   websiteUrl: https://thunderstore.io/c/lethal-company/p/kuba6000/LC_Masked_Fix/
@@ -1016,28 +799,6 @@
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\NiceHairs-NuclearLib\icon.png
 - manifestVersion: 1
-  name: NiceHairs-Symbiosis
-  authorName: NiceHairs
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/NiceHairs/Symbiosis/
-  displayName: Symbiosis
-  description: Make items, monsters and players interact together.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - NiceHairs-NuclearLib-1.0.4
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 5
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\NiceHairs-Symbiosis\icon.png
-- manifestVersion: 1
   name: TwinDimensionalProductions-CoilHeadStare
   authorName: TwinDimensionalProductions
   websiteUrl: https://thunderstore.io/c/lethal-company/p/TwinDimensionalProductions/CoilHeadStare/
@@ -1060,184 +821,6 @@
     patch: 3
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\TwinDimensionalProductions-CoilHeadStare\icon.png
-- manifestVersion: 1
-  name: IntegrityChaos-Diversity
-  authorName: IntegrityChaos
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/IntegrityChaos/Diversity/
-  displayName: Diversity
-  description: Diversity is a mod that revamps few aspects of the game. Generally
-    the entities itself.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 10
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\IntegrityChaos-Diversity\icon.png
-- manifestVersion: 1
-  name: AnythingGoesGit-MoreDeathNotes
-  authorName: AnythingGoesGit
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/AnythingGoesGit/MoreDeathNotes/
-  displayName: MoreDeathNotes
-  description: Update the Performance Report to include new information, such as
-    the cause of death.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AnythingGoesGit-MoreDeathNotes\icon.png
-- manifestVersion: 1
-  name: Silvision-PaintColorSwitch
-  authorName: Silvision
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Silvision/PaintColorSwitch/
-  displayName: PaintColorSwitch
-  description: This mod allows you to switch through the colors on the Spray Paint Can
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Silvision-PaintColorSwitch\icon.png
-- manifestVersion: 1
-  name: CHILLAX-ChillaxSCRAPS
-  authorName: CHILLAX
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/CHILLAX/ChillaxSCRAPS/
-  displayName: ChillaxSCRAPS
-  description: "NEW DEATH NOTE ITEM (In Testing, but usable) : Adds additional
-    scraps to mess with your friends and enhance gameplay experience, originally
-    planned for Chillax friend group members, but feel free to use it as you
-    like!"
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Evaisa-HookGenPatcher-0.0.4
-    - Evaisa-LethalLib-0.1.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 5
-    patch: 2
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\CHILLAX-ChillaxSCRAPS\icon.png
-- manifestVersion: 1
-  name: SZAKI-EnemyFix
-  authorName: SZAKI
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/SZAKI/EnemyFix/
-  displayName: EnemyFix
-  description: Fixing the enemy not despawning problem!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\SZAKI-EnemyFix\icon.png
-- manifestVersion: 1
-  name: NotAtomicBomb-TerminalApi
-  authorName: NotAtomicBomb
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/TerminalApi/
-  displayName: TerminalApi
-  description: A Terminal Api
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 5
-    patch: 0
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\NotAtomicBomb-TerminalApi\icon.png
-- manifestVersion: 1
-  name: NotAtomicBomb-Terminal_Clock
-  authorName: NotAtomicBomb
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/Terminal_Clock/
-  displayName: Terminal_Clock
-  description: A Terminal Clock
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - NotAtomicBomb-TerminalApi-1.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 5
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\NotAtomicBomb-Terminal_Clock\icon.png
-- manifestVersion: 1
-  name: NotAtomicBomb-Terminal_History
-  authorName: NotAtomicBomb
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/Terminal_History/
-  displayName: Terminal_History
-  description: Command History for the Terminal.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - NotAtomicBomb-TerminalApi-1.4.0
-    - Rune580-LethalCompany_InputUtils-0.4.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 4
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\NotAtomicBomb-Terminal_History\icon.png
 - manifestVersion: 1
   name: Hotoni-TZPReworkedHealing
   authorName: Hotoni
@@ -1301,50 +884,6 @@
     patch: 1
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\EladNLG-EladsHUD\icon.png
-- manifestVersion: 1
-  name: RickArg-Helmet_Cameras
-  authorName: RickArg
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/RickArg/Helmet_Cameras/
-  displayName: Helmet_Cameras
-  description: For monitoring first person cameras on player's helmets. For best
-    "Camera Man" experience.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 1
-    patch: 5
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\RickArg-Helmet_Cameras\icon.png
-- manifestVersion: 1
-  name: Backrooms-Backrooms
-  authorName: Backrooms
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Backrooms/Backrooms/
-  displayName: Backrooms
-  description: Explore the Backrooms, a surreal labyrinth in this mod. Navigate
-    endless, eerie spaces, and uncover mysteries.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - Evaisa-LethalLib-0.9.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 1
-    patch: 3
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Backrooms-Backrooms\icon.png
 - manifestVersion: 1
   name: Ozone-Cabinet_Item_Storage
   authorName: Ozone
@@ -1455,51 +994,6 @@
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\sfDesat-Orion\icon.png
 - manifestVersion: 1
-  name: TheFluff-FairAI
-  authorName: TheFluff
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/TheFluff/FairAI/
-  displayName: FairAI
-  description: Mod To Make Entities Less Racist. Everyone that can die will die by
-    stepping on mines, boombas, turrets, and config support. Now with more
-    config options!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 8
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\TheFluff-FairAI\icon.png
-- manifestVersion: 1
-  name: AlexCodesGames-AdditionalContentFramework
-  authorName: AlexCodesGames
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/AlexCodesGames/AdditionalContentFramework/
-  displayName: AdditionalContentFramework
-  description: Acts as a module loader for other mods, allowing you to easily add
-    your own custom items to Lethal Company!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalContentFramework\icon.png
-- manifestVersion: 1
   name: Ozone-Runtime_Netcode_Patcher
   authorName: Ozone
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Runtime_Netcode_Patcher/
@@ -1520,3 +1014,24 @@
     patch: 5
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Ozone-Runtime_Netcode_Patcher\icon.png
+- manifestVersion: 1
+  name: Krayken-DynamicDeadline
+  authorName: Krayken
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Krayken/DynamicDeadline/
+  displayName: DynamicDeadline
+  description: Just a simple mod to have the deadline increase with the quota
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Krayken-DynamicDeadline\icon.png
