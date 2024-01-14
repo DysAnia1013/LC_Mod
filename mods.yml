@@ -1015,27 +1015,6 @@
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Ozone-Runtime_Netcode_Patcher\icon.png
 - manifestVersion: 1
-  name: Krayken-DynamicDeadline
-  authorName: Krayken
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Krayken/DynamicDeadline/
-  displayName: DynamicDeadline
-  description: Just a simple mod to have the deadline increase with the quota
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 2
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Krayken-DynamicDeadline\icon.png
-- manifestVersion: 1
   name: tinyhoot-ShipLoot
   authorName: tinyhoot
   websiteUrl: https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLoot/
@@ -1284,4 +1263,4 @@
     minor: 1
     patch: 0
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\taffyko-BetterSprayPaint\1.1.0\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\taffyko-BetterSprayPaint\icon.png
