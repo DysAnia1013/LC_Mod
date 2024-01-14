@@ -1,3 +1,5 @@
+# 1.8.10
++ Minor changes.
 # 1.8.9
 + Fixed some issues throwing errors in the console.
 + Fixed item appearing quickly and then disappearing from your hand when you pick up a reserved item.

@@ -5,12 +5,9 @@ Enemies will now learn the voices of your friends and be able to repeat them.
 
 ## Discord server: https://discord.gg/8VXmnSfENj
 
-## Configuration
-All players need the mod installed. This is a client-side mod. Make sure your mic is enabled in-game.
-
-It can be configured through the config file in r2modman or manually in the .cfg file to enable/disable voices for specific creatures, and adjust the frequency of voice lines. The host's config will be automatically synced to other players in the lobby.
-
 ## Credits
+[![](https://cdn.discordapp.com/attachments/753742297153273867/1195825026105098380/image.png?ex=65b565d7&is=65a2f0d7&hm=68399b82b2ff4ee98216bc83759acd5a8f07c0ecfe0a7be12070a29a1a77f3b6&)](https://www.youtube.com/RugbugRedfern)
+
 Programming by Rugbug Redfern
 
 https://www.youtube.com/RugbugRedfern
@@ -19,10 +16,21 @@ Playtesting by Dubscr
 
 https://www.youtube.com/dubscr
 
+## Configuration
+All players who want to hear voices need the mod installed. This is a client-side mod. Make sure your mic is enabled in-game.
+
+It can be configured through the config file in r2modman or manually in the .cfg file to enable/disable voices for specific creatures and adjust the frequency of voice lines. The host's config will be automatically synced to other players in the lobby.
+
 ## FAQ
 
 ### Does this mod use AI?
 No! There is no AI involved at all in this mod.
+
+### Does it fill up my hard drive with audio clips?
+No, as of version 3.0.0, no files are written to the disk at all. All data is stored in memory and is monitored to be kept below a reasonable usage. All data is wiped from memory when the game is closed.
+
+### Does this mod steal recordings of my or my friends' voices?
+No. All voice data is handled locally on your computer and is never sent to anyone. Additionally, it is wiped when you close the game.
 
 ### How does it work?
 It records audio and plays it back at random times from enemies that you choose. Often times it results in some pretty creepy coincidences!
@@ -30,10 +38,17 @@ It records audio and plays it back at random times from enemies that you choose.
 ### Can I play alone?
 No, you need friends.
 
-### Does it fill up my hard drive with audio clips?
-No, audio clips are automatically deleted.
-
 ## Changelog
+
+### 3.0.1
+- Reduced max audio clips back to 200
+
+### 3.0.0
+- Fixed the issue that some players would experience where every few seconds their game would stutter.
+- The game no longer writes any files to disk. Everything is now processed in memory. Yay!
+- Increased max audio clips from 200 to 500
+
+Thanks to Nick for being a good idea bouncer
 
 ### 2.0.6
 - Improved clarity of some log messages
@@ -61,7 +76,7 @@ No, audio clips are automatically deleted.
 
 ### 2.0.0
 - Enemies no longer play voice lines when dead
-- Removed some unecessary logs
+- Removed some unnecessary logs
 - Added Masked and Nutcracker to the config
 
 ### 1.0.8

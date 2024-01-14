@@ -1,3 +1,5 @@
+# 1.5.10
++ Fixed the laser pointer red cube mesh issue. Again.
 # 1.5.9
 + Changes to support ReservedItemSlotCore 1.8.9.
 # 1.5.8

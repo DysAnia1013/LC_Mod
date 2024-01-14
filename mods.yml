@@ -99,9 +99,9 @@
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 2
+    major: 3
     minor: 0
-    patch: 7
+    patch: 1
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\RugbugRedfern-Skinwalkers\icon.png
 - manifestVersion: 1
@@ -123,7 +123,7 @@
   versionNumber:
     major: 1
     minor: 8
-    patch: 9
+    patch: 10
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
@@ -146,7 +146,7 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 9
+    patch: 10
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
 - manifestVersion: 1
@@ -382,9 +382,9 @@
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 2
-    minor: 4
-    patch: 1
+    major: 3
+    minor: 0
+    patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\HomelessGinger-MaskedEnemyOverhaul\icon.png
 - manifestVersion: 1
@@ -536,8 +536,8 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 12
-    patch: 1
+    minor: 13
+    patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Evaisa-LethalLib\icon.png
 - manifestVersion: 1
@@ -1035,3 +1035,253 @@
     patch: 2
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Krayken-DynamicDeadline\icon.png
+- manifestVersion: 1
+  name: tinyhoot-ShipLoot
+  authorName: tinyhoot
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLoot/
+  displayName: ShipLoot
+  description: Reliably shows the total value of all scrap in your ship.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\tinyhoot-ShipLoot\icon.png
+- manifestVersion: 1
+  name: Blorb-WeatherMultipliers
+  authorName: Blorb
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Blorb/WeatherMultipliers/
+  displayName: WeatherMultipliers
+  description: Moons with active weather will contain scrap with higher value
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Blorb-WeatherMultipliers\icon.png
+- manifestVersion: 1
+  name: AlexCodesGames-AdditionalContentFramework
+  authorName: AlexCodesGames
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/AlexCodesGames/AdditionalContentFramework/
+  displayName: AdditionalContentFramework
+  description: Acts as a module loader for other mods, allowing you to easily add
+    your own custom items to Lethal Company!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalContentFramework\icon.png
+- manifestVersion: 1
+  name: AlexCodesGames-AdditionalSuits
+  authorName: AlexCodesGames
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/AlexCodesGames/AdditionalSuits/
+  displayName: AdditionalSuits
+  description: Adds 8 more standard suits to your initial closet at the start of
+    the game! Great for organizing larger crews! Follow my socials in the desc
+    to stay in the loop for updates and new mods for Lethal Company! (source
+    code is also in desc <3)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - AlexCodesGames-AdditionalContentFramework-1.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\AlexCodesGames-AdditionalSuits\icon.png
+- manifestVersion: 1
+  name: Norman-GlowStickSuits
+  authorName: Norman
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Norman/GlowStickSuits/
+  displayName: GlowStickSuits
+  description: ELEVEN colors and they glow in the dark! Suits are now brighter! If
+    you want the less bright suits download version 1.0.3
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - x753-More_Suits-1.3.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Norman-GlowStickSuits\icon.png
+- manifestVersion: 1
+  name: monkes_mods-JumpDelayPatch
+  authorName: monkes_mods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/monkes_mods/JumpDelayPatch/
+  displayName: JumpDelayPatch
+  description: (Mostly) patches out the delay when jumping.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\monkes_mods-JumpDelayPatch\icon.png
+- manifestVersion: 1
+  name: boxofbiscuits97-QuotaRollover
+  authorName: boxofbiscuits97
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/boxofbiscuits97/QuotaRollover/
+  displayName: QuotaRollover
+  description: Anti-hoarding technology that only removes required credits for the
+    quota instead of setting progress to 0
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\boxofbiscuits97-QuotaRollover\icon.png
+- manifestVersion: 1
+  name: IAmBatby-LethalLevelLoader
+  authorName: IAmBatby
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalLevelLoader/
+  displayName: LethalLevelLoader
+  description: A Custom API to support the manual and dynamic integration of
+    custom levels and dungeons in Lethal Company.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-0.11.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\IAmBatby-LethalLevelLoader\icon.png
+- manifestVersion: 1
+  name: scoopy-Scoopys_Variety_Mod
+  authorName: scoopy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/scoopy/Scoopys_Variety_Mod/
+  displayName: Scoopys_Variety_Mod
+  description: Adds a new dungeon-themed interior, and some scrap items. This mod
+    aims to add some variety to the base game of lethal company through new
+    content.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-0.11.0
+    - IAmBatby-LethalLevelLoader-1.0.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 6
+    patch: 5
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\scoopy-Scoopys_Variety_Mod\icon.png
+- manifestVersion: 1
+  name: FlipMods-ReservedWeaponSlot
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedWeaponSlot/
+  displayName: ReservedWeaponSlot
+  description: Gives a free, dedicated Weapon slot on the right side of your
+    screen! This slot accepts all weapons, and even weapons from popular mods!
+    Now includes a Reserved ammo slot on the left side of the screen. (optional)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - FlipMods-ReservedItemSlotCore-1.8.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedWeaponSlot\icon.png
+- manifestVersion: 1
+  name: taffyko-BetterSprayPaint
+  authorName: taffyko
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/taffyko/BetterSprayPaint/
+  displayName: BetterSprayPaint
+  description: Infinite spray paint, significantly more responsive and reliable
+    painting, longer range, quieter sounds, and an erase feature
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\taffyko-BetterSprayPaint\1.1.0\icon.png

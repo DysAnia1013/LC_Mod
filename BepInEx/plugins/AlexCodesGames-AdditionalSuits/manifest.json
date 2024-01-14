@@ -1,0 +1,10 @@
+{
+  "name": "AdditionalSuits",
+  "version_number": "2.0.0",
+  "website_url": "https://twitter.com/AlexCodesGames",
+  "description": "Adds 8 more standard suits to your initial closet at the start of the game! Great for organizing larger crews! Follow my socials in the desc to stay in the loop for updates and new mods for Lethal Company! (source code is also in desc <3)",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "AlexCodesGames-AdditionalContentFramework-1.0.2"
+  ]
+}
