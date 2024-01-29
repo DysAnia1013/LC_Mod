@@ -1,3 +1,14 @@
+- 1.2.3
+  - Added LethalExpansionCore as a temporary dependency (to fix incompatibilities)
+  - Updated Description (new discord server)
+
+- 1.2.1
+  - New Discord Link
+  - Lowered the price 800 > 750
+  - Changed Description
+  - Lowered max indoor enemies 24 > 22
+  - Check out my newest planet [here](https://thunderstore.io/c/lethal-company/p/sfDesat/Celest/)
+
 - 1.2.0
   - Increased cost 650 > 800
   - Decreased Factory Size 2.5 > 2.4

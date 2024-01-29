@@ -1,0 +1,9 @@
+{
+  "name": "GetLootForKills",
+  "version_number": "1.2.3",
+  "website_url": "https://github.com/goldenkittenplays",
+  "description": "Mod To Add Spawnable Loot/Mob Drops On All Entity Deaths.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

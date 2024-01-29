@@ -1,0 +1,12 @@
+{
+	"name": "BuffedPresents",
+	"version_number": "0.0.5",
+	"website_url": "https://github.com/landonk89/Buffed-Presents",
+	"description": "Presents can give buyables or better value scrap",
+	"dependencies": [],
+	"incompatibilities": [
+    "GiftBoxRevert",
+    "LethalPresents",
+    "ExplodingPresents"
+	]
+}

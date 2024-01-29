@@ -81,13 +81,26 @@ WriteUnityLog = true
 Then send the "LogOutput.log" file from the "Lethal Company\BepInEx\" folder in the bug report.  
 
 ## Known issues :
-- Hoarding big killed when grabbed an item from a mine don't drop the item that make it irrecoverable.
-- When deadline remaining days is over 3 days, outside monsters spawn more.
+- Hoarding bug killed when grabbed an item from a mine don't drop the item that make it irrecoverable.
+- When deadline remaining days is over 3 days, outside monsters spawns more.
 - Landmines stills bip if a player walk on them when theres already an item placed on it.
-- Landmine instand explode when a player walk on them (Vanilla bug).
-- Kicking a client after timeout is not working.
+- Landmine instand explode when a player walk on them (Vanilla bug) use [LandmineFix](https://thunderstore.io/c/lethal-company/p/TheBeeTeam/LandmineFix/) by TheBeeTeam.
 
 ## Changes :
+- 1.3.25
+    - Fixed README link to default modules.
+- 1.3.24
+    - Allow custom scripts from a DLL.
+	- Moved Wateridge and default scraps to an [independent mod](https://thunderstore.io/c/lethal-company/p/HolographicWings/LEDefaultModules/).
+- 1.3.23
+    - Fixed WhoopieCushion.
+- 1.3.22
+	- Fixed issue where Noisemakers wouldn't play for other players.
+	- Added a lot more support for contributing.
+- 1.3.21
+	- Fixed a missing field in custom Noisemakers scraps.
+- 1.3.20
+	- Added DamagePlayer and AudioOutputInterface to scrap components whitelist.
 - 1.3.19
 	- Added a blacklist field for custom scraps and moons. (Need testing)
 	- Added a security against embed modules overwriting.
@@ -125,7 +138,7 @@ Then send the "LogOutput.log" file from the "Lethal Company\BepInEx\" folder in 
 	- Reduced spawn luck of Christmas Star in Christmas Village.
 - 1.3.9
 	- Attempt to fix a crash that happen on certain setups when loading a custom moon.
-	- Increased AutomaticDeadlineStage cap to 3000 (from 1000).
+	- Increased AutomaticDeadlineStage cap to 3000 (from 1000)
 	- Slighty improved Compatibility logging.
 - 1.3.8
 	- Fixed a critical bug with SDK's character validator.
@@ -351,3 +364,7 @@ Then send the "LogOutput.log" file from the "Lethal Company\BepInEx\" folder in 
 ![MoonCatalogue](https://raw.githubusercontent.com/HolographicWings/LethalExpansion/main/Screenshots/MoonCatalogue.png "MoonCatalogue")
 ![NewMoon1](https://raw.githubusercontent.com/HolographicWings/LethalExpansion/main/Screenshots/NewMoon1.png "NewMoon1")
 ![NewMoon2](https://raw.githubusercontent.com/HolographicWings/LethalExpansion/main/Screenshots/NewMoon2.png "NewMoon2")
+
+## Contribution
+If you would like to contribute to the project, please take a look at [CONTRIBUTING.md](https://github.com/HolographicWings/LethalExpansion/blob/main/CONTRIBUTING.md) for details!
+Thank you to user [Panthr75](https://github.com/Panthr75) for writing most of this very helpful document.

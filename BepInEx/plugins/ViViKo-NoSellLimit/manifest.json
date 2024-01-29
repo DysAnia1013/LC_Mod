@@ -1,0 +1,7 @@
+{
+    "name": "NoSellLimit",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"],
+    "description": "Remove the limit of items that can be placed on the deposit desk",
+    "version_number": "1.0.1",
+    "website_url": ""
+}

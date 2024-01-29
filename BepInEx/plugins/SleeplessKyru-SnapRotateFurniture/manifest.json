@@ -1,0 +1,9 @@
+{
+    "name": "SnapRotateFurniture",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Simply adds snapping when rotating decor in your ship! Use the Activation key; default binds: LMB or Right Trigger/R2",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

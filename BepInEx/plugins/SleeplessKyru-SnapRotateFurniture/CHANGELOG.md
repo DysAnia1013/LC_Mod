@@ -1,0 +1,2 @@
+# Moved Teams!
+The mod is exactly the same when it was uploaded under SleeplessMods. I needed to change my team name but it seems like you can't do that so I decided to move the mod before too many people downloaded it. Sorry for my goof!

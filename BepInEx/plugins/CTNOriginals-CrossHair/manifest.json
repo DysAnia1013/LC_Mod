@@ -1,6 +1,6 @@
 {
     "name": "CrossHair",
-    "version_number": "1.0.5",
+    "version_number": "1.1.0",
     "website_url": "https://github.com/CTN-Originals/LethalCompany-CrossHair",
     "description": "Adds a CrossHair to the center of your screen (-  +  -) to indicate where you are aiming.",
     "dependencies": [

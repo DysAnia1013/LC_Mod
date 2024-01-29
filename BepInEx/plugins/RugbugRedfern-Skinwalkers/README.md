@@ -27,7 +27,7 @@ It can be configured through the config file in r2modman or manually in the .cfg
 No! There is no AI involved at all in this mod.
 
 ### Does it fill up my hard drive with audio clips?
-No, as of version 3.0.0, no files are written to the disk at all. All data is stored in memory and is monitored to be kept below a reasonable usage. All data is wiped from memory when the game is closed.
+No, files are deleted automatically a few seconds after they are recorded and moved to memory. Data stored in memory is monitored to be kept below a reasonable usage. All data is wiped from memory when the game is closed.
 
 ### Does this mod steal recordings of my or my friends' voices?
 No. All voice data is handled locally on your computer and is never sent to anyone. Additionally, it is wiped when you close the game.
@@ -38,7 +38,19 @@ It records audio and plays it back at random times from enemies that you choose.
 ### Can I play alone?
 No, you need friends.
 
+### My game is stuttering, why?
+Some players may experience stutters every few seconds. To fix this:
+- Move Lethal Company's install location to an SSD.
+If that doesn't work, you can try the [Skinwalkers Experimental](https://thunderstore.io/c/lethal-company/p/RugbugRedfern/SkinwalkersExperimental/) version which fixes stutters but may cause issues for some players.
+
 ## Changelog
+
+### 4.0.1
+- Updated README to reflect v2
+- The v3 version is still playable on the new branch: [Skinwalkers Experimental](https://thunderstore.io/c/lethal-company/p/RugbugRedfern/SkinwalkersExperimental/)
+
+### 4.0.0
+- Reverted to v2 due to stability issues with the v3 release.
 
 ### 3.0.1
 - Reduced max audio clips back to 200

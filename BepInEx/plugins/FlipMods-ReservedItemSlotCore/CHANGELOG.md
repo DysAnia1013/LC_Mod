@@ -1,3 +1,23 @@
+# 1.8.16
++ Re-restricted the use of this mod for non-host clients if the host does not have it enabled. This still CAN, and likely WILL cause desync issues if used this way, but for those who are stubborn enough, you can force allow this in the config. You have been warned!
+# 1.8.15
++ Keybind display names should now display the correct keybind, whether on keyboard or controller.
++ All relevant keybind display names for this mod should automatically switch between keyboard and controller accordingly.
++ Added more controller support, with and without InputUtils. Works best with InputUtils installed, and easier to configure the controls.
+# 1.8.14
++ Gave internal access to the ReservedKeySlot mod by: nitsuD
+# 1.8.13
++ Revised a few methods to help prevent the error spam with players sending negative hotbar slot changes to the server.
++ Added more logs to help debug current or future errors.
++ Removed a block of code that could have been miscalculating the new reserved item slots start index when inventory size changes. (for other players)
++ As always, if this version seems unstable, please revert back to 1.8.12 until this has been updated.
+# 1.8.12
++ Disabled adjusting inventory HUD elements in AdvancedCompany is enabled. (temporary maybe)
++ Small tweaks to code.
+# 1.8.11
++ Added more reliable checks for the local player when the inventory size changes, for calculating which item slot index is the start of the reserved item slots. Should fix <i>some</i> issues.<br>
++ When using this mod with AdvanceCompany, (and it decides to behave itself) the reserved slots shouldn't use the feet slots from that mod.
++ If this mod creates errors with AdvancedCompany, it might be best to run without this mod (or AC) until the issue is fixed.
 # 1.8.10
 + Minor changes.
 # 1.8.9

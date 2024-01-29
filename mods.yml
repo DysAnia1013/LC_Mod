@@ -15,10 +15,10 @@
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 3
-    patch: 2
+    minor: 4
+    patch: 5
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\2018-LC_API\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\cache\2018-LC_API\3.4.5\icon.png
 - manifestVersion: 1
   name: BepInEx-BepInExPack
   authorName: BepInEx
@@ -99,7 +99,7 @@
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 3
+    major: 4
     minor: 0
     patch: 1
   enabled: true
@@ -110,7 +110,7 @@
   websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/
   displayName: ReservedItemSlotCore
   description: The core mod for all ReservedItemSlot mods. Adds functionality for
-    my ReservedItemSlot mods.
+    all ReservedItemSlot mods.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -123,7 +123,7 @@
   versionNumber:
     major: 1
     minor: 8
-    patch: 10
+    patch: 16
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
@@ -145,8 +145,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 5
-    patch: 10
+    minor: 6
+    patch: 2
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
 - manifestVersion: 1
@@ -190,8 +190,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 5
-    patch: 5
+    minor: 6
+    patch: 1
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
 - manifestVersion: 1
@@ -301,27 +301,6 @@
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\5Bit-VoiceHUD\icon.png
 - manifestVersion: 1
-  name: Ozone-BepInUtils
-  authorName: Ozone
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/BepInUtils/
-  displayName: BepInUtils
-  description: A library some of my mods depend on.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 1
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Ozone-BepInUtils\icon.png
-- manifestVersion: 1
   name: EliteMasterEric-Coroner
   authorName: EliteMasterEric
   websiteUrl: https://thunderstore.io/c/lethal-company/p/EliteMasterEric/Coroner/
@@ -383,8 +362,8 @@
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 0
-    patch: 0
+    minor: 1
+    patch: 1
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\HomelessGinger-MaskedEnemyOverhaul\icon.png
 - manifestVersion: 1
@@ -472,8 +451,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 5
+    minor: 1
+    patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\CTNOriginals-CrossHair\icon.png
 - manifestVersion: 1
@@ -536,8 +515,8 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 13
-    patch: 0
+    minor: 14
+    patch: 2
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Evaisa-LethalLib\icon.png
 - manifestVersion: 1
@@ -579,7 +558,7 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 4
+    patch: 6
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\notnotnotswipez-MoreCompany\icon.png
 - manifestVersion: 1
@@ -843,27 +822,6 @@
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Hotoni-TZPReworkedHealing\icon.png
 - manifestVersion: 1
-  name: Ozone-NC_LC_API
-  authorName: Ozone
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/NC_LC_API/
-  displayName: NC_LC_API
-  description: A library some of my mods depend on.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 0
-    patch: 5
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Ozone-NC_LC_API\icon.png
-- manifestVersion: 1
   name: EladNLG-EladsHUD
   authorName: EladNLG
   websiteUrl: https://thunderstore.io/c/lethal-company/p/EladNLG/EladsHUD/
@@ -884,29 +842,6 @@
     patch: 1
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\EladNLG-EladsHUD\icon.png
-- manifestVersion: 1
-  name: Ozone-Cabinet_Item_Storage
-  authorName: Ozone
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Cabinet_Item_Storage/
-  displayName: Cabinet_Item_Storage
-  description: Allows bulk item storage inside the drawers of the file cabinet.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Ozone-BepInUtils-1.2.1
-    - Ozone-NC_LC_API-0.0.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 0
-    patch: 4
-  enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\Ozone-Cabinet_Item_Storage\icon.png
 - manifestVersion: 1
   name: tinyhoot-ShipLobby
   authorName: tinyhoot
@@ -946,7 +881,7 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 19
+    patch: 25
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\HolographicWings-LethalExpansion\icon.png
 - manifestVersion: 1
@@ -984,13 +919,14 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - HolographicWings-LethalExpansion-1.3.18
+    - jockie-LethalExpansionCore-1.3.14
+    - HolographicWings-LethalExpansion-1.3.19
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 2
-    patch: 0
+    patch: 3
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\sfDesat-Orion\icon.png
 - manifestVersion: 1
@@ -1165,8 +1101,8 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 2
-    patch: 1
+    minor: 3
+    patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\boxofbiscuits97-QuotaRollover\icon.png
 - manifestVersion: 1
@@ -1183,13 +1119,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - Evaisa-LethalLib-0.11.2
+    - Evaisa-LethalLib-0.13.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 6
+    patch: 7
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\IAmBatby-LethalLevelLoader\icon.png
 - manifestVersion: 1
@@ -1197,9 +1133,9 @@
   authorName: scoopy
   websiteUrl: https://thunderstore.io/c/lethal-company/p/scoopy/Scoopys_Variety_Mod/
   displayName: Scoopys_Variety_Mod
-  description: Adds a new dungeon-themed interior, and some scrap items. This mod
-    aims to add some variety to the base game of lethal company through new
-    content.
+  description: Adds two new interiors (Dungeon and Sewer), and some scrap items.
+    This mod aims to add some variety to the base game of lethal company through
+    new content.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1208,24 +1144,66 @@
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
     - Evaisa-HookGenPatcher-0.0.5
-    - Evaisa-LethalLib-0.11.0
-    - IAmBatby-LethalLevelLoader-1.0.6
+    - IAmBatby-LethalLevelLoader-1.0.7
+    - Evaisa-LethalLib-0.14.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 0
-    minor: 6
-    patch: 5
+    major: 1
+    minor: 0
+    patch: 0
   enabled: true
   icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\scoopy-Scoopys_Variety_Mod\icon.png
 - manifestVersion: 1
-  name: FlipMods-ReservedWeaponSlot
+  name: JT-LC_Better_Teleport
+  authorName: JT
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/JT/LC_Better_Teleport/
+  displayName: LC_Better_Teleport
+  description: Teleport without restraints
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\JT-LC_Better_Teleport\icon.png
+- manifestVersion: 1
+  name: ViViKo-NoSellLimit
+  authorName: ViViKo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ViViKo/NoSellLimit/
+  displayName: NoSellLimit
+  description: Remove the limit of items that can be placed on the deposit desk
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\ViViKo-NoSellLimit\icon.png
+- manifestVersion: 1
+  name: FlipMods-ReservedSprayPaintSlot
   authorName: FlipMods
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedWeaponSlot/
-  displayName: ReservedWeaponSlot
-  description: Gives a free, dedicated Weapon slot on the right side of your
-    screen! This slot accepts all weapons, and even weapons from popular mods!
-    Now includes a Reserved ammo slot on the left side of the screen. (optional)
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedSprayPaintSlot/
+  displayName: ReservedSprayPaintSlot
+  description: Gives a free, dedicated SprayPaint slot on the right side of your
+    screen, and adds quality of life tweaks to them! Required
+    ReservedItemSlotCore mod.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1239,16 +1217,16 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 6
+    patch: 7
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedWeaponSlot\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\FlipMods-ReservedSprayPaintSlot\icon.png
 - manifestVersion: 1
-  name: taffyko-BetterSprayPaint
-  authorName: taffyko
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/taffyko/BetterSprayPaint/
-  displayName: BetterSprayPaint
-  description: Infinite spray paint, significantly more responsive and reliable
-    painting, longer range, quieter sounds, and an erase feature
+  name: SleeplessKyru-SnapRotateFurniture
+  authorName: SleeplessKyru
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/SleeplessKyru/SnapRotateFurniture/
+  displayName: SnapRotateFurniture
+  description: "Simply adds snapping when rotating decor in your ship! Use the
+    Activation key; default binds: LMB or Right Trigger/R2"
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1260,7 +1238,69 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 0
+    minor: 0
+    patch: 1
   enabled: true
-  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\taffyko-BetterSprayPaint\icon.png
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\SleeplessKyru-SnapRotateFurniture\icon.png
+- manifestVersion: 1
+  name: RedCrowbar-BuffedPresents
+  authorName: RedCrowbar
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/RedCrowbar/BuffedPresents/
+  displayName: BuffedPresents
+  description: Presents can give buyables or better value scrap
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\RedCrowbar-BuffedPresents\icon.png
+- manifestVersion: 1
+  name: TheFluff-GetLootForKills
+  authorName: TheFluff
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/TheFluff/GetLootForKills/
+  displayName: GetLootForKills
+  description: Mod To Add Spawnable Loot/Mob Drops On All Entity Deaths.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 3
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\TheFluff-GetLootForKills\icon.png
+- manifestVersion: 1
+  name: jockie-LethalExpansionCore
+  authorName: jockie
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/jockie/LethalExpansionCore/
+  displayName: LethalExpansionCore
+  description: De-bloated LethalExpansion fork with only the LethalSDK module support
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 15
+  enabled: true
+  icon: E:\Game\Mod\LC\R2\LethalCompany\profiles\1217\BepInEx\plugins\jockie-LethalExpansionCore\icon.png

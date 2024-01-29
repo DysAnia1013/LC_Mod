@@ -104,14 +104,15 @@ BepinEx
 
 # TODO
 - Picking up and dropping item events
+  - Including `Player.StartGrabbingItem`, `Player.GrabbingItem`, `Player.GrabbedItem`, `Player.DroppingItem`, and `Player.DroppedItem`
+    - The present-tense versions are cancellable, `StartGrabbingItem`, `GrabbingItem` and `DroppingItem`.
+    - `StartGrabbingItem` exists for items that take time to pickup.
 - Using item events
   - For shovels, that's hitting
   - For boomboxes, that's activating music
   - etc. though this would all fall under one event probably just `Item.Using` or `Item.Activating`
 - Player begin and end moving events
 - Player crouch and jump events
-- Past tense versions of hurting and dying
-  - These won't be cancellable, but you will be able to use these to do things on death/hurt as hurting and dying can be cancelled by other mods
 - Changing item event
 - Selling items event
   - Probably one for selling many items on the counter which will also call an event for each individual item being sold
@@ -122,3 +123,5 @@ BepinEx
   - Dying
   - Attacking (when the enemy attacks a player)
   - There may be ones specific to some kind of enemy as well
+- `Player.EnteringFacility` and `Player.LeavingFacility`
+  - With a bool for using fire escape

@@ -1,20 +1,22 @@
-# Scoopy's Variety Mod (formerly LethalExtension)
+# Scoopy's Variety Mod 
 
 ## Overview
 
-***This mod now requires LethalLevelLoader as a dependency***
-
-Currently, the mod adds one new interior, which is dungeon themed, and some new scrap items. This interior is comprised of custom assets and is intended to add some variety to the interiors in the base game. 
-
-The dungeon interior is in an almost complete state, with some bugs. There will likely be more content added to this dungeon in the near future, in addition to fixing some of the remaining issues.
+Currently, the mod adds two new interiors, and some new scrap items. These interior is comprised of custom assets and is intended to add some variety to the interiors in the base game. 
 
 The dungeon interior is a sprawling and dark crypt style interior with a high degree of verticality compared to the base interiors. 
+
+The sewer interior is cluttered with garbage and flooded with ankle-deep water, with a closer style to the vanilla interiors. 
 
 If you encounter any bugs you'd like to report, please post them in the LethalExtension thread located in the "mod-releases" section of the Lethal Company modding discord (https://discord.com/servers/lethal-company-modding-1168655651455639582).
 
 ## Features
 1. Dungeon (Interior)
-	1. Sprawling interior made from custom assets with high degree of verticality.
+	1. Sprawling interior made from custom made assets with high degree of verticality.
+	2. Spawning parameters can be customized using the config file located in BepInEx/config.
+
+1. Sewer (Interior)
+	1. Flooded abandoned sewer made using both custom made and purchased assets.
 	2. Spawning parameters can be customized using the config file located in BepInEx/config.
 
 2. Scrap Items
@@ -33,7 +35,7 @@ More features and improvements to come in the near future.
 
 ## Known issues
 - All players must have matching config values or sync issues will occur.
-- Spray cans don't work consistently on dungeon assets.
+- Spray cans don't work on some on dungeon assets.
 - Some enemies have pathing issues.
 - Some lighting bleedthrough issues.
 
@@ -45,6 +47,7 @@ If you enjoy my work, and want to spare a few bucks to support me, feel free to 
 ## Credits
 - Scoopy: Programming, 3D Modelling & Texturing, General Design
 - Tailon: 3D Modelling & Texturing
+- KeeperOfBucket: 3D Modelling and Texturing
 - Support from IAmBatby (https://thunderstore.io/c/lethal-company/p/IAmBatby/) & Badhamknibbs (https://thunderstore.io/c/lethal-company/p/Badham_Mods/)
 
 ## Images
@@ -52,6 +55,8 @@ If you enjoy my work, and want to spare a few bucks to support me, feel free to 
 
 ![](https://i.imgur.com/o93yarY.jpg)
 
-![](https://i.imgur.com/ID54iJT.jpg)
+![](https://i.imgur.com/5MLZgWS.jpeg)
+
+![](https://i.imgur.com/xe2yl9o.jpeg)
 
 ![](https://i.imgur.com/8g8W89m.jpg)

@@ -1,3 +1,16 @@
+# 1.0.0
+- Added a new interior: Sewer
+- Added 2 new tiles to the dungeon interior
+	- One of these acts as a generator equivalent, with a loot item equivalent to the apparatus. Picking this item up does not turn off the lights however.
+- Increased lighting in dungeon interior, and lighting is now randomly generated
+- Dungeon Props now spawn randomly, to add variety to room layouts
+- Fixed doors pushing the player when opened
+- Fixed spray paint not working on dungeon interior walls
+- Fixed various graphical issues / tile misalignment issues
+- Fire exits can no longer spawn inside the entry room of the dungeon
+- Removed some troublesome vents which caused enemies to get stuck behind props on spawning
+- Various other bug fixes/small improvements
+
 # 0.6.5 
 - Minor lighting changes to improve visibility and increase overall brightness in the Dungeon interior
 - Removed some vents which were placed behind objects, causing enemies to get stuck
